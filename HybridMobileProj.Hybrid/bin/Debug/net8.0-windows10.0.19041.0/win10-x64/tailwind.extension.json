@@ -1,0 +1,5 @@
+{
+  "ConfigurationFile": "tilwind.config.js",
+  "InputCssFile": "wwwroot\\tailwind-input.css",
+  "OutputCssFile":  "wwwroot\\app-tailwind.css"
+}

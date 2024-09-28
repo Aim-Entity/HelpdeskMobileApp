@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\HybridMobileProj.Hybrid.styles.css",
+      "PackagePath": "staticwebassets\\HybridMobileProj.Hybrid.styles.css"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\app-tailwind.css",
+      "PackagePath": "staticwebassets\\app-tailwind.css"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\right-arrow.svg",
+      "PackagePath": "staticwebassets\\images\\right-arrow.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\user-icon.svg",
+      "PackagePath": "staticwebassets\\images\\user-icon.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\tailwind-input.css",
+      "PackagePath": "staticwebassets\\tailwind-input.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.HybridMobileProj.Hybrid.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.HybridMobileProj.Hybrid.props",
+      "PackagePath": "build\\HybridMobileProj.Hybrid.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.HybridMobileProj.Hybrid.props",
+      "PackagePath": "buildMultiTargeting\\HybridMobileProj.Hybrid.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.HybridMobileProj.Hybrid.props",
+      "PackagePath": "buildTransitive\\HybridMobileProj.Hybrid.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
