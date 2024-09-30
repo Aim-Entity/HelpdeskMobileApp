@@ -62,8 +62,10 @@ wwwroot\HybridMobileProj.Hybrid.bundle.scp.css
 package-lock.json
 package.json
 AboutAssets.txt
-wwwroot\app.css
+wwwroot\css\app.css
+wwwroot\css\app.min.css
 wwwroot\favicon.png
 wwwroot\images\right-arrow.svg
 wwwroot\images\user-icon.svg
 wwwroot\index.html
+wwwroot\prototype.html

@@ -8,8 +8,6 @@
 @if (properties != null)
 {
 
-    <button asp-page-handler="AddNewProperty" class=text-red-400>Click Me</button>
-
     @foreach (Property property in properties)
     {
         <h1>@property.PropertyName</h1>

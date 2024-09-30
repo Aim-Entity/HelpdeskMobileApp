@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WKvdPFCIbpOUENQNYQopAF0ILvqQjUswpmlLj4D9f38=",
+  "Hash": "iT0UKzz0QRoQG4XTWUXJLc7Zt21oyRDyioZgjOq6U3A=",
   "Source": "HybridMobileProj.Hybrid",
   "BasePath": "/",
   "Mode": "Root",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\HybridMobileProj.Hybrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\app.css",
+      "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\css\\app.css",
       "SourceId": "HybridMobileProj.Hybrid",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "app.css",
+      "RelativePath": "css/app.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.css"
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\css\\app.min.css",
+      "SourceId": "HybridMobileProj.Hybrid",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/app.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.min.css"
     },
     {
       "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\favicon.png",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\prototype.html",
+      "SourceId": "HybridMobileProj.Hybrid",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "prototype.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\prototype.html"
     }
   ]
 }

@@ -477,4 +477,6 @@ C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.winmd
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\HybridMobileProj.Hybrid.sourcelink.json
-C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\app.css
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\prototype.html
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\css\app.css
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\css\app.min.css
