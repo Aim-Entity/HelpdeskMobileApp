@@ -1,1 +1,0 @@
-C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\HybridMobileProj.Hybrid.csproj;x64

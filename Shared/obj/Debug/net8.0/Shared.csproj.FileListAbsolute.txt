@@ -20,3 +20,4 @@ C:\projects\HybridMobileProj\HybridMobileProj\Shared\obj\Debug\net8.0\Shared.dll
 C:\projects\HybridMobileProj\HybridMobileProj\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\projects\HybridMobileProj\HybridMobileProj\Shared\obj\Debug\net8.0\Shared.pdb
 C:\projects\HybridMobileProj\HybridMobileProj\Shared\obj\Debug\net8.0\ref\Shared.dll
+C:\projects\HybridMobileProj\HybridMobileProj\Shared\obj\Debug\net8.0\Shared.sourcelink.json

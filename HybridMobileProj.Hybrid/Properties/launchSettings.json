@@ -9,6 +9,6 @@
     "commandName": "Executable",
     "workingDirectory": "$(ProjectDir)",
     "executablePath": "dotnet",
-    "commandLineArgs":  "watch run debug --launch-profile http"
+    "commandLineArgs": "watch run debug --launch-profile http"
   }
 }

@@ -192,7 +192,9 @@ public class MonoPackageManager_Resources {
 		"Application.dll",
 		"Domain.dll",
 		"Infrastructure.dll",
-		"Plugins.InMemory.dll",
+		"Microsoft.Maui.Controls.HotReload.Forms.dll",
+		"Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll",
+		"Microsoft.VisualStudio.DesignTools.TapContract.dll",
 		"Shared.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 	};

@@ -36,3 +36,4 @@ C:\projects\HybridMobileProj\HybridMobileProj\Application\obj\Debug\net8.0\refin
 C:\projects\HybridMobileProj\HybridMobileProj\Application\obj\Debug\net8.0\Application.pdb
 C:\projects\HybridMobileProj\HybridMobileProj\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
 C:\projects\HybridMobileProj\HybridMobileProj\Application\obj\Debug\net8.0\ref\Application.dll
+C:\projects\HybridMobileProj\HybridMobileProj\Application\obj\Debug\net8.0\Application.sourcelink.json

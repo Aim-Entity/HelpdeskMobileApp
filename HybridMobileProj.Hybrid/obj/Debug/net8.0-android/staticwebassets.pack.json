@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets\\HybridMobileProj.Hybrid.styles.css"
     },
     {
-      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\app-tailwind.css",
-      "PackagePath": "staticwebassets\\app-tailwind.css"
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
     },
     {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\favicon.png",
@@ -23,10 +23,6 @@
     {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\tailwind-input.css",
-      "PackagePath": "staticwebassets\\tailwind-input.css"
     },
     {
       "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.HybridMobileProj.Hybrid.Microsoft.AspNetCore.StaticWebAssets.props",

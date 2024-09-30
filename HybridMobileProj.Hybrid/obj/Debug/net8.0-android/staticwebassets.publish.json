@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uPTo3ryoACA9KlBZlV4P5GNqt8xjH8j+/K5y4bTKGhs=",
+  "Hash": "vSojFIQ+ekifn4rkuBtxDCwawjAQqIN9krhwPc9zRvM=",
   "Source": "HybridMobileProj.Hybrid",
   "BasePath": "/",
   "Mode": "Root",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\HybridMobileProj.Hybrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\app-tailwind.css",
+      "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\app.css",
       "SourceId": "HybridMobileProj.Hybrid",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "app-tailwind.css",
+      "RelativePath": "app.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app-tailwind.css"
+      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
       "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\favicon.png",
@@ -148,25 +148,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\tailwind-input.css",
-      "SourceId": "HybridMobileProj.Hybrid",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "tailwind-input.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\tailwind-input.css"
     }
   ]
 }

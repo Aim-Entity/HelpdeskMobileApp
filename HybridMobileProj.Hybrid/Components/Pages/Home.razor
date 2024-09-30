@@ -5,16 +5,18 @@
 
 <h1>Hello, world!</h1>
 
-@if (properties != null){
+@if (properties != null)
+{
 
-    <button asp-page-handler="AddNewProperty">Click Me</button>
+    <button asp-page-handler="AddNewProperty" class=text-red-400>Click Me</button>
 
     @foreach (Property property in properties)
     {
         <h1>@property.PropertyName</h1>
         <h1>@property.Id</h1>
     }
-} else
+}
+else
 {
     <h1>@count</h1>
     <h1>Fail</h1>
