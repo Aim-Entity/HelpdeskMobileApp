@@ -1,28 +1,51 @@
-﻿
-<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">HybridMobileProj.Hybrid</a>
+﻿<div class="flex w-full justify-between mobile-padding h-[4.375rem] relative z-[10] bg-white">
+    <img src="images/right-arrow.svg" alt=""
+        class="transition-all duration-200 ease-in-out w-4 cursor-pointer @(navState == true ? "rotate-90" : "rotate-0")"
+        @onclick=ToggleNav>
+    <div class="flex items-center justify-between gap-1">
+        <img src="images/user-icon.svg" alt="" class="w-5">
+        <div class="">
+            <h3 class="text-12px">Bilal Uddin</h3>
+            <p class="text-10px">Property</p>
+        </div>
     </div>
 </div>
 
-<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+<nav
+    class="transition-all duration-200 ease-in-out mobile-padding h-12 bg-[#3B3E41] text-white flex justify-between items-center text-12px relative z-[1] @(navState == true ? "bottom-0" : "bottom-12")">
+    <div>
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            Home
+        </NavLink>
+    </div>
+    <div>
+        <NavLink class="nav-link" href="counter">
+            Counter
+        </NavLink>
+    </div>
+    <div>
+        <NavLink class="nav-link" href="weather">
+            Weather
+        </NavLink>
+    </div>
+</nav>
 
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
-    </nav>
-</div>
+@code
+{
+    bool navState { get; set; } = false; // False = closed. True = open
+
+    protected async Task ToggleNav()
+    {
+        navState = !navState;
+    }
+
+    /*
+    [Inject] IJSRuntime JSRuntime { get; set; }
+    protected async Task MessageBox()
+    {
+    navState = !navState;
+    await JSRuntime.InvokeVoidAsync("navigationScripts.toggleNav",
+    navState);
+    }
+    */
+}

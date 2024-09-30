@@ -7,6 +7,10 @@
     <base href="/" />
     <link rel="stylesheet" href="css/app.min.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -23,7 +27,14 @@
     </div>
 
     <script src="_framework/blazor.webview.js" autostart="false"></script>
-
+    <script>
+        window.navigationScripts =
+        {
+            toggleNav: function (state) {
+                console.log(state)
+            }
+        };
+    </script>
 </body>
 
 </html>

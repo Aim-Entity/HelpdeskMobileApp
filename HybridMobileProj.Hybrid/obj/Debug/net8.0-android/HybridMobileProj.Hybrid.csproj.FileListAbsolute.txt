@@ -1728,7 +1728,6 @@ C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\obj\Debug\
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-android\package-lock.json
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-android\package.json
-C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-android\tailwind.extension.json
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\obj\Debug\net8.0-android\HybridMobileProj.Hybrid.sourcelink.json
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
