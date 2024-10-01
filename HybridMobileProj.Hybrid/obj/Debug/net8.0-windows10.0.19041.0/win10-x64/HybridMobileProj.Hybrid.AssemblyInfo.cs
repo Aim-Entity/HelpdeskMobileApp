@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HybridMobileProj.Hybrid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+61431efb435f8cb876918bd7132af84f8205632b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7177a6b6d9e8c11ca8d451658e9841dc07796e31")]
 [assembly: System.Reflection.AssemblyProductAttribute("HybridMobileProj.Hybrid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HybridMobileProj.Hybrid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

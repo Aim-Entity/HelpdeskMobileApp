@@ -1,0 +1,86 @@
+﻿@page "/properties"
+
+<!-- Modal -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <form method="dialog" class="modal-backdrop">
+      <button class="btn btn-sm btn-circle absolute right-2 top-2 border bg-white">✕</button>
+    </form>
+
+    <h3 class="text-base font-semibold text-[#878A99]">Create New Property</h3>
+
+    <div class="flex flex-col gap-3 mt-7">
+      <div class="flex flex-col">
+        <label for="Name" class="text-12px text-primary-color">Property Name</label>
+        <input type="text" class="generic-input-field">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="Address 1" class="text-12px text-primary-color">Address 1</label>
+        <input type="text" class="generic-input-field">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="Address2" class="text-12px text-primary-color">Address 2</label>
+        <input type="text" class="generic-input-field">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="Address 3" class="text-12px text-primary-color">Address 3</label>
+        <input type="text" class="generic-input-field">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="Address 4" class="text-12px text-primary-color">Address 4</label>
+        <input type="text" class="generic-input-field">
+      </div>
+
+      <div class="flex flex-col">
+        <label for="Postcode" class="text-12px text-primary-color">Postcode</label>
+        <input type="text" class="generic-input-field">
+      </div>
+
+      <button class="bg-dark-blue w-full h-10 text-12px mt-3">Create Property</button>
+    </div>
+
+  </div>
+</dialog>
+
+<div>
+  <div class="container-border flex justify-between items-center px-3 h-16">
+    <h3 class="text-[#878A99] font-semibold text-sm">Properties</h3>
+
+    <button class="rounded-sm w-28 h-10 bg-light-blue text-10px" onclick="my_modal_5.showModal()">+ Create
+      Property</button>
+  </div>
+
+  <div class="container-border-notop px-3 py-3">
+    <select class="generic-input-field w-full h-6">
+      <option>Test1</option>
+      <option>Test1</option>
+      <option>Test1</option>
+    </select>
+
+    <button class="bg-dark-blue w-full h-10 text-12px mt-3">Confirm Filter</button>
+  </div>
+
+  <div class="container-border-notop mb-6">
+    <div id="propertyGrid" class="ag-theme-quartz" style="height: 250px;"></div>
+  </div>
+</div>
+
+@code {
+
+  protected override async Task OnAfterRenderAsync(bool firstRender)
+  {
+    await CreateGrid();
+  }
+
+
+  [Inject] IJSRuntime JSRuntime { get; set; }
+  protected async Task CreateGrid()
+  {
+    await JSRuntime.InvokeVoidAsync("propertiesScripts.createGrid");
+  }
+
+}

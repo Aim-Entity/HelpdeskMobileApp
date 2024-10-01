@@ -8,8 +8,6 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
-    @apply text-12px;
   }
 }
 
@@ -24,5 +22,42 @@
   
   .text-12px {
     font-size: 0.75rem;
+  }
+
+  .container-border {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E9EBEC;
+  }
+
+  .container-border-notop {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E9EBEC;
+  }
+
+  .text-primary-color {
+    color: #3B3E41;
+  }
+
+  .text-secondary-color {
+    color: #6D7080;
+  }
+
+  .bg-light-blue {
+    background: #94C5D4;
+    color: #FFFFFF;
+  }
+
+  .bg-dark-blue {
+    background: #4B8B9F;
+    color: #FFFFFF;
+  }
+
+  .generic-input-field {
+    background: #F6F8FA;
+    border: 1px solid #E9EBEC;
+    border-radius: 1px;
+    color: #3B3E41;
   }
 }

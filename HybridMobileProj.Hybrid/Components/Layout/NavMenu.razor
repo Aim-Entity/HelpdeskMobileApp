@@ -1,31 +1,36 @@
-﻿<div class="flex w-full justify-between mobile-padding h-[4.375rem] relative z-[10] bg-white">
+﻿<div class="flex w-full justify-between mobile-padding h-[4.375rem] relative z-[10] bg-white drop-shadow">
     <img src="images/right-arrow.svg" alt=""
         class="transition-all duration-200 ease-in-out w-4 cursor-pointer @(navState == true ? "rotate-90" : "rotate-0")"
         @onclick=ToggleNav>
     <div class="flex items-center justify-between gap-1">
         <img src="images/user-icon.svg" alt="" class="w-5">
         <div class="">
-            <h3 class="text-12px">Bilal Uddin</h3>
-            <p class="text-10px">Property</p>
+            <h3 class="text-12px text-primary-color">Bilal Uddin</h3>
+            <p class="text-10px text-secondary-color">Property</p>
         </div>
     </div>
 </div>
 
 <nav
-    class="transition-all duration-200 ease-in-out mobile-padding h-12 bg-[#3B3E41] text-white flex justify-between items-center text-12px relative z-[1] @(navState == true ? "bottom-0" : "bottom-12")">
+    class="transition-all duration-200 ease-in-out mobile-padding h-12 bg-[#3B3E41] text-white flex justify-between items-center text-12px w-full absolute z-[1] @(navState == true ? "top-[70px]" : "top-0")">
     <div>
-        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-            Home
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All" @onclick=ToggleNav>
+            Requests
         </NavLink>
     </div>
     <div>
-        <NavLink class="nav-link" href="counter">
-            Counter
+        <NavLink class="nav-link" href="counter" @onclick=ToggleNav>
+            Quotes
         </NavLink>
     </div>
     <div>
-        <NavLink class="nav-link" href="weather">
-            Weather
+        <NavLink class="nav-link" href="properties" @onclick=ToggleNav>
+            Properties
+        </NavLink>
+    </div>
+    <div>
+        <NavLink class="nav-link" href="weather" @onclick=ToggleNav>
+            Compliances
         </NavLink>
     </div>
 </nav>
@@ -34,7 +39,7 @@
 {
     bool navState { get; set; } = false; // False = closed. True = open
 
-    protected async Task ToggleNav()
+    protected void ToggleNav()
     {
         navState = !navState;
     }

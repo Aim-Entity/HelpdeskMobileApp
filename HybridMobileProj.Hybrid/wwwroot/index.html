@@ -11,7 +11,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Includes all JS & CSS for the JavaScript Data Grid -->
+   <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
+
+   <style>
+    .ag-theme-quartz {
+        --ag-border-radius: 0px;
+        --ag-font-size: 0.75rem;
+        color: #3B3E41 !important;
+    }
+
+    .ag-root-wrapper {
+        color: #3b3e41 !important;
+        border-radius: 0px !important;
+    }
+
+    span.ag-paging-row-summary-panel {
+        display: none;
+    }
+   </style>
 </head>
 
 <body>
@@ -28,12 +47,144 @@
 
     <script src="_framework/blazor.webview.js" autostart="false"></script>
     <script>
+        function getGenericGridOptions() {
+            return {
+                paginationPageSize: 30,
+                pagination: true,
+                paginationPageSizeSelector: [10, 20, 30, 50, 100],
+                autoSizeStrategy: {
+                    type: 'fitGridWidth',
+                    defaultMinWidth: 100
+                },
+                // Row Data: The data to be displayed.
+                rowData: [
+                ],
+                defaultColDef: {
+                    wrapHeaderText: true,
+                    autoHeaderHeight: true,
+                    showDisabledCheckboxes: true,
+                    minWidth: 30
+                },
+                // Column Definitions: Defines the columns to be displayed.
+                columnDefs: [
+
+                ]
+            }
+        };
+
         window.navigationScripts =
         {
             toggleNav: function (state) {
                 console.log(state)
             }
         };
+
+        window.propertiesScripts = {
+            createGrid: function () {
+                // Grid Options: Contains all of the Data Grid configurations
+                let propertiesColumnDef = [
+                    {
+                        field: "ID",
+                        headerName: "ID",
+                        filter: 'agTextColumnFilter',
+                        flex: 1,
+                        //valueGetter: params => { return params.data.RowNumber }
+                    },
+                    {
+                        field: "ManagedBy",
+                        filter: 'agTextColumnFilter',
+                        headerName: "Managed By",
+                        flex: 3,
+                        //valueGetter: params => { return params.data.name }
+                    },
+                    {
+                        field: "PropertyName",
+                        headerName: "Property Name",
+                        flex: 3,
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressOne",
+                        headerName: "Address 1",
+                        flex: 2,
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressTwo",
+                        headerName: "Address 2",
+                        flex: 2,
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressThree",
+                        headerName: "Address 3",
+                        flex: 2,
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressFour",
+                        headerName: "Address 4",
+                        flex: 2,
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "Postcode",
+                        headerName: "Postcode",
+                        flex: 2,
+                        filter: 'agTextColumnFilter',
+                    },
+                ];
+
+                let propertiesRowData = [
+                    {
+                        ID: "#001",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#002",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#003",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#004",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                ]
+
+                // Your Javascript code to create the Data Grid
+                const myGridElement = document.querySelector('#propertyGrid');
+                let gridAPI = agGrid.createGrid(myGridElement, getGenericGridOptions());
+                gridAPI.setGridOption("columnDefs", propertiesColumnDef);
+                gridAPI.setGridOption("rowData", propertiesRowData);
+            }
+        }
     </script>
 </body>
 
