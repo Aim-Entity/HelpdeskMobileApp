@@ -17,8 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\check.svg",
+      "PackagePath": "staticwebassets\\images\\check.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\cross.svg",
+      "PackagePath": "staticwebassets\\images\\cross.svg"
+    },
+    {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\jobs.svg",
       "PackagePath": "staticwebassets\\images\\jobs.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\line.svg",
+      "PackagePath": "staticwebassets\\images\\line.svg"
     },
     {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\money.svg",

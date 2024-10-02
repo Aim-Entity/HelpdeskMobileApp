@@ -202,11 +202,12 @@
                             btn.className += "bg-light-blue text-white w-full h-[50%] rounded-sm";
                             
                             let link = document.createElement("a");
+                            link.href = "/test"
 
-                            container.append(btn);
-                            btn.appendChild(link);
+                            container.append(link);
+                            link.appendChild(btn);
 
-                            link.innerHTML = "View"
+                            btn.innerHTML = "View"
                             return container;
                         }
                         //valueGetter: params => { return params.data.RowNumber }

@@ -54,6 +54,11 @@
     color: #FFFFFF;
   }
 
+  .bg-danger-red {
+    background: #D49494;
+    color: #FFFFFF;
+  }
+
   .generic-input-field {
     background: #F6F8FA;
     border: 1px solid #E9EBEC;
