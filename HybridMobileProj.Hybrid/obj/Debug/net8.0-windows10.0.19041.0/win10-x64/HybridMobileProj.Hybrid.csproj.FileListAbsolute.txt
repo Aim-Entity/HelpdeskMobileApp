@@ -480,3 +480,6 @@ C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\css\app.min.css
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\HybridMobileProj.Hybrid.AssemblyInfoInputs.cache
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\HybridMobileProj.Hybrid.AssemblyInfo.cs
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\jobs.svg
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\money.svg
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\property.svg

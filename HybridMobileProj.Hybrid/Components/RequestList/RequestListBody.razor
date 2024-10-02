@@ -1,0 +1,63 @@
+﻿<!-- Modal -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <form method="dialog" class="modal-backdrop">
+      <button class="btn btn-sm btn-circle absolute right-2 top-2 border bg-white">✕</button>
+    </form>
+
+    <h3 class="text-base font-semibold text-[#878A99]">Create New Property</h3>
+
+    <div class="flex flex-col gap-3 mt-7">
+      <div class="flex flex-col">
+        <label for="Name" class="text-12px text-primary-color">Property Name</label>
+        <select class="generic-input-field w-full h-6">
+          <option>Test1</option>
+          <option>Test1</option>
+          <option>Test1</option>
+        </select>
+      </div>
+
+      <button class="bg-dark-blue w-full h-10 text-12px mt-3">Create Request</button>
+    </div>
+
+  </div>
+</dialog>
+
+<div>
+  <div class="container-border flex justify-between items-center px-3 h-16">
+    <h3 class="text-[#878A99] font-semibold text-sm">Helpdesk Requests</h3>
+
+    <button class="rounded-sm w-28 h-10 bg-light-blue text-10px" onclick="my_modal_5.showModal()">+ Create
+      Requests</button>
+  </div>
+
+  <div class="container-border-notop px-3 py-3">
+    <select class="generic-input-field w-full">
+      <option>Test1</option>
+      <option>Test1</option>
+      <option>Test1</option>
+    </select>
+
+    <button class="bg-dark-blue w-full h-10 text-12px mt-3">Confirm Filter</button>
+  </div>
+
+  <div class="container-border-notop mb-6">
+    <div id="RequestListGrid" class="ag-theme-quartz" style="height: 250px;"></div>
+  </div>
+</div>
+
+@code {
+
+  protected override async Task OnAfterRenderAsync(bool firstRender)
+  {
+    await CreateGrid();
+  }
+
+
+  [Inject] IJSRuntime JSRuntime { get; set; }
+  protected async Task CreateGrid()
+  {
+    await JSRuntime.InvokeVoidAsync("jobScripts.createGrid");
+  }
+
+}

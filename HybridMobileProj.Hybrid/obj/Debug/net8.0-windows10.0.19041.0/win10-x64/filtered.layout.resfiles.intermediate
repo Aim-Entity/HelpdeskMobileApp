@@ -65,6 +65,9 @@ AboutAssets.txt
 wwwroot\css\app.css
 wwwroot\css\app.min.css
 wwwroot\favicon.png
+wwwroot\images\jobs.svg
+wwwroot\images\money.svg
+wwwroot\images\property.svg
 wwwroot\images\right-arrow.svg
 wwwroot\images\user-icon.svg
 wwwroot\index.html

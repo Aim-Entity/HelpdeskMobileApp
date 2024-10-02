@@ -59,5 +59,8 @@
     border: 1px solid #E9EBEC;
     border-radius: 1px;
     color: #3B3E41;
+    height: 1.75rem;
+    @apply pl-1;
+    @apply text-12px;
   }
 }
