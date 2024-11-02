@@ -1,11 +1,11 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-eosHg4ZhvtgkBfUZkaEBebp3gtfCrK\/1R3e0nwILrnc=",
+      "hash": "sha256-X71dFNujC5w87gAyUXjBpgxmlQ5aNsEj5qvCrgZNwms=",
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-zUos91EfI1wxMSQGFTRP1kvEmCIpYGdLm2AWqLwMENA=",
+      "hash": "sha256-CLDqro3GSW750xRdGPTn+e3lnz2TO4xUrSnTov0gmOE=",
       "url": "css\/app.min.css"
     },
     {
@@ -17,19 +17,47 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
-      "hash": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
-      "url": "favicon.png"
+      "hash": "sha256-kgOGDAFwg3QDzRoia\/781gymRm1fKZvfrXj9bDU3pac=",
+      "url": "images\/check.svg"
     },
     {
-      "hash": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
-      "url": "icon-192.png"
+      "hash": "sha256-Ra4BrGpVyDN\/Ek3C+pnW4RBmtSQx7uLwlhljj5uHrKM=",
+      "url": "images\/cross.svg"
     },
     {
-      "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
-      "url": "icon-512.png"
+      "hash": "sha256-A3+hB052ccyJAiVMz2ZHoMLuJqAzaZYMWu0y0VeiU1U=",
+      "url": "images\/jobs.svg"
     },
     {
-      "hash": "sha256-G052\/6BReQw+8\/sg+c+WD5jeXpxrXPhPWA3Ury84\/O0=",
+      "hash": "sha256-vL+mRe76Mrs5Kh80K+7T4gmwMQZeaF6E03TvGh5HOMo=",
+      "url": "images\/line.svg"
+    },
+    {
+      "hash": "sha256-xTyE8TW5VMor85EDq0nx08ElbWyeXkIH\/JHFqXFzaps=",
+      "url": "images\/money.svg"
+    },
+    {
+      "hash": "sha256-hwB\/nHbsdA6FMjlNehjnzaVMhJ32bIEUHVfpee14Ln0=",
+      "url": "images\/property.svg"
+    },
+    {
+      "hash": "sha256-tPRASTxlO\/GTitrSzcWAPWyXiPWnaCiBlFPSzc9vusM=",
+      "url": "images\/right-arrow.svg"
+    },
+    {
+      "hash": "sha256-QfmFvK2u95r3y5X8Pw7SFjxP9RxmYzZ0qn11Jh7qweg=",
+      "url": "images\/survey.png"
+    },
+    {
+      "hash": "sha256-fqaoytwIKydiF4kNXdLe7xQPukOQ43MYwvLbMbZC5YY=",
+      "url": "images\/upload.svg"
+    },
+    {
+      "hash": "sha256-05HmZAN8WmDUEK5eha64qCyFCVoDB1hShgDziRdxcIo=",
+      "url": "images\/user-icon.svg"
+    },
+    {
+      "hash": "sha256-jLD5Uwrn\/MJnDoAJH2ymWMstazIMY324LAXBbwqlJ+Q=",
       "url": "index.html"
     },
     {
@@ -849,17 +877,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-mCqqhiVg7UK8\/yPRf9jTbOBoj4OtsvlBahNt\/SNtr\/4=",
+      "hash": "sha256-wZtXucDbRPqROjRWEeHugoWeb+BTqGaY7sSOuN2eqqI=",
       "url": "_framework\/HybridMobileProj.Client.wasm"
     },
     {
-      "hash": "sha256-gST\/aTQhLJBZyIZDiZRSD3yr6scRVMOE4OyBSdK3d54=",
+      "hash": "sha256-JC38l4qfrI9oxgICFeeicOyY4mo9N0YpBWsyWde8LKA=",
       "url": "_framework\/HybridMobileProj.Client.pdb"
     },
     {
-      "hash": "sha256-+2aWIFNdqAs0M4Cp4RCzdyfdNdzNJtGyfp+de94\/dLY=",
+      "hash": "sha256-SK6t9kxCKgHtfWYd9ZxiCkNUOL3Dn42Og17kDqwAZ8Y=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "hfw\/\/Qhr"
+  "version": "mWt5urFk"
 };

@@ -12,6 +12,34 @@
     <link href="manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Includes all JS & CSS for the JavaScript Data Grid -->
+   <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
+
+   <style>
+    .ag-theme-quartz {
+        --ag-border-radius: 0px;
+        --ag-font-size: 0.75rem;
+        color: #3B3E41 !important;
+    }
+
+    .ag-root-wrapper {
+        color: #3b3e41 !important;
+        border-radius: 0px !important;
+    }
+
+    span.ag-paging-row-summary-panel {
+        display: none;
+    }
+
+    #blazor-error-ui {
+        display: none;
+    }
+   </style>
 </head>
 
 <body>
@@ -30,6 +58,259 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+
+    <script>
+        function getGenericGridOptions() {
+            return {
+                paginationPageSize: 30,
+                pagination: true,
+                paginationPageSizeSelector: [10, 20, 30, 50, 100],
+                autoSizeStrategy: {
+                    type: 'fitGridWidth',
+                    defaultMinWidth: 100
+                },
+                // Row Data: The data to be displayed.
+                rowData: [
+                ],
+                defaultColDef: {
+                    wrapHeaderText: true,
+                    autoHeaderHeight: true,
+                    showDisabledCheckboxes: true,
+                    minWidth: 30
+                },
+                // Column Definitions: Defines the columns to be displayed.
+                columnDefs: [
+
+                ]
+            }
+        };
+
+        window.navigationScripts =
+        {
+            toggleNav: function (state) {
+                console.log(state)
+            }
+        };
+
+        window.propertiesScripts = {
+            createGrid: function () {
+                // Grid Options: Contains all of the Data Grid configurations
+                let propertiesColumnDef = [
+                    {
+                        field: "ID",
+                        headerName: "ID",
+                        filter: 'agTextColumnFilter',
+                        //valueGetter: params => { return params.data.RowNumber }
+                    },
+                    {
+                        field: "ManagedBy",
+                        filter: 'agTextColumnFilter',
+                        headerName: "Managed By",
+                        //valueGetter: params => { return params.data.name }
+                    },
+                    {
+                        field: "PropertyName",
+                        headerName: "Property Name",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressOne",
+                        headerName: "Address 1",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressTwo",
+                        headerName: "Address 2",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressThree",
+                        headerName: "Address 3",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressFour",
+                        headerName: "Address 4",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "Postcode",
+                        headerName: "Postcode",
+                        filter: 'agTextColumnFilter',
+                    },
+                ];
+
+                let propertiesRowData = [
+                    {
+                        ID: "#001",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#002",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#003",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#004",
+                        ManagedBy: "Bilal Uddin",
+                        PropertyName: "La Property",
+                        AddressOne: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                ]
+
+                // Your Javascript code to create the Data Grid
+                const myGridElement = document.querySelector('#propertyGrid');
+                let gridAPI = agGrid.createGrid(myGridElement, getGenericGridOptions());
+                gridAPI.setGridOption("columnDefs", propertiesColumnDef);
+                gridAPI.setGridOption("rowData", propertiesRowData);
+            }
+        }
+
+        window.jobScripts = {
+            createGrid: function () {
+                // Grid Options: Contains all of the Data Grid configurations
+                let jobColumnDef = [
+                    {
+                        headerName: "Link",
+                        filter: 'agTextColumnFilter',
+                        flex: 2,
+                        cellRenderer: params => {
+                            let container = document.createElement("div");
+
+                            let btn = document.createElement("button");
+                            btn.className += "bg-light-blue text-white w-full h-[50%] rounded-sm";
+                            
+                            let link = document.createElement("a");
+                            link.href = "/test"
+
+                            container.append(link);
+                            link.appendChild(btn);
+
+                            btn.innerHTML = "View"
+                            return container;
+                        }
+                        //valueGetter: params => { return params.data.RowNumber }
+                    },
+                    {
+                        field: "ID",
+                        headerName: "ID",
+                        filter: 'agTextColumnFilter',
+                        //valueGetter: params => { return params.data.RowNumber }
+                    },
+                    {
+                        field: "Status",
+                        filter: 'agTextColumnFilter',
+                        headerName: "Status",
+                        //valueGetter: params => { return params.data.name }
+                    },
+                    {
+                        field: "Contractor",
+                        headerName: "Contractor",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "RaisedAt",
+                        headerName: "Raised At",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressTwo",
+                        headerName: "Address 2",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressThree",
+                        headerName: "Address 3",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "AddressFour",
+                        headerName: "Address 4",
+                        filter: 'agTextColumnFilter',
+                    },
+                    {
+                        field: "Postcode",
+                        headerName: "Postcode",
+                        filter: 'agTextColumnFilter',
+                    },
+                ];
+
+                let jobRowData = [
+                    {
+                        ID: "#HR001",
+                        Status: "Bilal Uddin",
+                        Contractor: "La Property",
+                        RaisedAt: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#HR002",
+                        Status: "Bilal Uddin",
+                        Contractor: "La Property",
+                        RaisedAt: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#HR003",
+                        Status: "Bilal Uddin",
+                        Contractor: "La Property",
+                        RaisedAt: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                    {
+                        ID: "#HR004",
+                        Status: "Bilal Uddin",
+                        Contractor: "La Property",
+                        RaisedAt: "One Address",
+                        AddressTwo: "One Address",
+                        AddressThree: "",
+                        AddressFour: "",
+                        Postcode: "BBAA HHA",
+                    },
+                ]
+
+                // Your Javascript code to create the Data Grid
+                const myGridElement = document.querySelector('#RequestListGrid');
+                let gridAPI = agGrid.createGrid(myGridElement, getGenericGridOptions());
+                gridAPI.setGridOption("columnDefs", jobColumnDef);
+                gridAPI.setGridOption("rowData", jobRowData);
+            }
+        }
+    </script>
 </body>
 
 </html>

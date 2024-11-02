@@ -26,16 +26,40 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Components/RequestDetail/ContactContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXF1ZXN0RGV0YWlsXENvbnRhY3RDb250YWluZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Components/RequestDetail/ContactLine.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXF1ZXN0RGV0YWlsXENvbnRhY3RMaW5lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Components/RequestDetail/ContractorBidPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXF1ZXN0RGV0YWlsXENvbnRyYWN0b3JCaWRQYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Components/RequestDetail/RequestHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXF1ZXN0RGV0YWlsXFJlcXVlc3RIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Components/RequestList/JobInfoCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXF1ZXN0TGlzdFxKb2JJbmZvQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Components/RequestList/RequestListBody.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXF1ZXN0TGlzdFxSZXF1ZXN0TGlzdEJvZHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Pages/Properties.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydGllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Pages/RequestDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVxdWVzdERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/Pages/RequestList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVxdWVzdExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/projects/HybridMobileProj/HybridMobileProj/HybridMobileProj.Client/_Imports.razor]

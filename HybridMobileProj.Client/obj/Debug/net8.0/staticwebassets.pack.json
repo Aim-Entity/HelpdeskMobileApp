@@ -37,16 +37,44 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\check.svg",
+      "PackagePath": "staticwebassets\\images\\check.svg"
     },
     {
-      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\icon-192.png",
-      "PackagePath": "staticwebassets\\icon-192.png"
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\cross.svg",
+      "PackagePath": "staticwebassets\\images\\cross.svg"
     },
     {
-      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\icon-512.png",
-      "PackagePath": "staticwebassets\\icon-512.png"
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\jobs.svg",
+      "PackagePath": "staticwebassets\\images\\jobs.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\line.svg",
+      "PackagePath": "staticwebassets\\images\\line.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\money.svg",
+      "PackagePath": "staticwebassets\\images\\money.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\property.svg",
+      "PackagePath": "staticwebassets\\images\\property.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\right-arrow.svg",
+      "PackagePath": "staticwebassets\\images\\right-arrow.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\survey.png",
+      "PackagePath": "staticwebassets\\images\\survey.png"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\upload.svg",
+      "PackagePath": "staticwebassets\\images\\upload.svg"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\user-icon.svg",
+      "PackagePath": "staticwebassets\\images\\user-icon.svg"
     },
     {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\index.html",
