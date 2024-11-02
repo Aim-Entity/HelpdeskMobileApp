@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <title>HybridMobileProj.Hybrid</title>
     <base href="/" />
+    
     <link rel="stylesheet" href="css/app.min.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,6 +30,10 @@
     }
 
     span.ag-paging-row-summary-panel {
+        display: none;
+    }
+
+    #blazor-error-ui {
         display: none;
     }
    </style>
@@ -88,50 +93,42 @@
                         field: "ID",
                         headerName: "ID",
                         filter: 'agTextColumnFilter',
-                        flex: 1,
                         //valueGetter: params => { return params.data.RowNumber }
                     },
                     {
                         field: "ManagedBy",
                         filter: 'agTextColumnFilter',
                         headerName: "Managed By",
-                        flex: 3,
                         //valueGetter: params => { return params.data.name }
                     },
                     {
                         field: "PropertyName",
                         headerName: "Property Name",
-                        flex: 3,
                         filter: 'agTextColumnFilter',
                     },
                     {
                         field: "AddressOne",
                         headerName: "Address 1",
-                        flex: 2,
                         filter: 'agTextColumnFilter',
                     },
                     {
                         field: "AddressTwo",
                         headerName: "Address 2",
-                        flex: 2,
                         filter: 'agTextColumnFilter',
                     },
                     {
                         field: "AddressThree",
                         headerName: "Address 3",
-                        flex: 2,
                         filter: 'agTextColumnFilter',
                     },
                     {
                         field: "AddressFour",
                         headerName: "Address 4",
-                        flex: 2,
                         filter: 'agTextColumnFilter',
                     },
                     {
                         field: "Postcode",
                         headerName: "Postcode",
-                        flex: 2,
                         filter: 'agTextColumnFilter',
                     },
                 ];

@@ -45,6 +45,14 @@
       "PackagePath": "staticwebassets\\images\\right-arrow.svg"
     },
     {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\survey.png",
+      "PackagePath": "staticwebassets\\images\\survey.png"
+    },
+    {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\upload.svg",
+      "PackagePath": "staticwebassets\\images\\upload.svg"
+    },
+    {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\images\\user-icon.svg",
       "PackagePath": "staticwebassets\\images\\user-icon.svg"
     },

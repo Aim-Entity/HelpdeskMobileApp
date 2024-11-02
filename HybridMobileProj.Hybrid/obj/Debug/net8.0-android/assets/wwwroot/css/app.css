@@ -47,11 +47,25 @@
   .bg-light-blue {
     background: #94C5D4;
     color: #FFFFFF;
+    @apply rounded-sm;
   }
 
   .bg-dark-blue {
     background: #4B8B9F;
     color: #FFFFFF;
+    @apply rounded-sm;
+  }
+
+  .bg-danger-red {
+    background: #D49494;
+    color: #FFFFFF;
+    @apply rounded-sm;
+  }
+
+  .bg-success-green {
+    background: #4B9F81;
+    color: #FFFFFF;
+    @apply rounded-sm;
   }
 
   .generic-input-field {
@@ -62,5 +76,9 @@
     height: 1.75rem;
     @apply pl-1;
     @apply text-12px;
+  }
+
+  .file-field-border {
+    border: 3px dashed #6D7080;
   }
 }

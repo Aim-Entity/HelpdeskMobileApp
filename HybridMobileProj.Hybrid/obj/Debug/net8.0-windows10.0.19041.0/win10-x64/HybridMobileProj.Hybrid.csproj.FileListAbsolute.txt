@@ -486,3 +486,5 @@ C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\line.svg
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\check.svg
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\cross.svg
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\upload.svg
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\images\survey.png
