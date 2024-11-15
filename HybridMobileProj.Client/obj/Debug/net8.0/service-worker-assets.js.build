@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-CLDqro3GSW750xRdGPTn+e3lnz2TO4xUrSnTov0gmOE=",
+      "hash": "sha256-aKj73ZCwPTeX4nMN9dW\/GL5iZOexZYAdMddQDN7tfkk=",
       "url": "css\/app.min.css"
     },
     {
@@ -877,17 +877,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-wZtXucDbRPqROjRWEeHugoWeb+BTqGaY7sSOuN2eqqI=",
+      "hash": "sha256-LWIgGzkDYGLMMkE6+X5sRhHs2U+CsXmE5GA3nodoIhE=",
       "url": "_framework\/HybridMobileProj.Client.wasm"
     },
     {
-      "hash": "sha256-JC38l4qfrI9oxgICFeeicOyY4mo9N0YpBWsyWde8LKA=",
+      "hash": "sha256-MYmOt5zuT8yFx8\/XYK7ogWBof88aXUUTBvsWX1IE5Ss=",
       "url": "_framework\/HybridMobileProj.Client.pdb"
     },
     {
-      "hash": "sha256-SK6t9kxCKgHtfWYd9ZxiCkNUOL3Dn42Og17kDqwAZ8Y=",
+      "hash": "sha256-UaklJG\/uix2QhFufWPgti8\/vN80gQK\/ve4TR\/WpR\/YI=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "mWt5urFk"
+  "version": "dLXMMU7S"
 };

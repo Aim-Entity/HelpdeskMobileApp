@@ -1,4 +1,5 @@
 ﻿using Domain.Entities.Property;
+using Domain.Entities.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,16 @@ namespace Domain.Entities.Job
 {
     abstract public class JobAbstract
     {
-        public string DetailsOfRepair { get; set; }
-        public string ContactName { get; set; }
-        public string Telephone { get; set; }
-        public string Email { get; set; }
-        public string Compliance { get; set; }
-        public string JobType{ get; set; }
-        public int Deadline{ get; set; }
-        public Property.Property Property{ get; set; }
+        public abstract string DetailsOfRepair { get; set; }
+        public abstract string ContactName { get; set; }
+        protected abstract string Telephone { get; set; }
+        protected abstract string Email { get; set; }
+        public abstract string Compliance { get; set; }
+        public abstract string JobType { get; set; }
+        public abstract int Deadline { get; set; }
+        public abstract Property.Property Property { get; set; }
+        protected abstract PropertyManager PropertyManager { get; set; }
+        protected abstract Contractor Contractor { get; set; }
+        protected abstract Surveyor Surveyor { get; set; }
     }
 }
