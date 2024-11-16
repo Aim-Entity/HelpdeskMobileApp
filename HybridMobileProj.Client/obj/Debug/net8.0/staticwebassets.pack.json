@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\js\\properties.js",
+      "PackagePath": "staticwebassets\\js\\properties.js"
+    },
+    {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },

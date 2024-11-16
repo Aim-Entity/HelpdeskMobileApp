@@ -1,7 +1,7 @@
 ﻿@page "/properties"
 
 <!-- Modal -->
-<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+<dialog id="CreatePropertyModal" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <form method="dialog" class="modal-backdrop">
       <button class="btn btn-sm btn-circle absolute right-2 top-2 border bg-white">✕</button>
@@ -50,7 +50,7 @@
   <div class="container-border flex justify-between items-center px-3 h-16">
     <h3 class="text-[#878A99] font-semibold text-sm">Properties</h3>
 
-    <button class="rounded-sm w-28 h-10 bg-light-blue text-10px" onclick="my_modal_5.showModal()">+ Create
+    <button class="rounded-sm w-28 h-10 bg-light-blue text-10px" onclick="CreatePropertyModal.showModal()">+ Create
       Property</button>
   </div>
 
@@ -83,4 +83,8 @@
     await JSRuntime.InvokeVoidAsync("propertiesScripts.createGrid");
   }
 
+  private async Task CreateNewProperty()
+  {
+
+  }
 }

@@ -21,19 +21,15 @@ namespace Infrastructure.InMemory.Plugins
             };
         }
 
-        public async Task<IEnumerable<Property>> GetPropertiesByNameAsync(string name)
+        public async Task<IEnumerable<Property>> GetAllPropertyAsync()
         {
-            if (string.IsNullOrEmpty(name))
-            {
-                return await Task.FromResult(_properties);
-            }
-
-            return _properties.Where(x => x.PropertyName.Contains(name, StringComparison.OrdinalIgnoreCase));
+            return _properties;
         }
 
-        public void AddProperty(int id)
+        public async Task<Property> InsertNewPropertyAsync(Property property)
         {
-            _properties.Add(new Property { Id = id, PropertyName = "New Prop", Address1 = "Address", Address2 = "Address 2" });
+            _properties.Add(property);
+            return property;
         }
     }
 }

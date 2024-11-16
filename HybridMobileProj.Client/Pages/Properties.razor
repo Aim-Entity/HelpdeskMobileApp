@@ -1,7 +1,10 @@
 ﻿@page "/properties"
+@using Application.PluginInterfaces.Property
+@using Application.Property
+@inject IPropertyRepository PropertyRepository
 
 <!-- Modal -->
-<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+<dialog id="CreatePropertyModal" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <form method="dialog" class="modal-backdrop">
       <button class="btn btn-sm btn-circle absolute right-2 top-2 border bg-white">✕</button>
@@ -12,75 +15,114 @@
     <div class="flex flex-col gap-3 mt-7">
       <div class="flex flex-col">
         <label for="Name" class="text-12px text-primary-color">Property Name</label>
-        <input type="text" class="generic-input-field">
+        <input type="text" class="generic-input-field" @bind="newProperty.PropertyName">
       </div>
 
       <div class="flex flex-col">
         <label for="Address 1" class="text-12px text-primary-color">Address 1</label>
-        <input type="text" class="generic-input-field">
+        <input type="text" class="generic-input-field" @bind="newProperty.Address1">
       </div>
 
       <div class="flex flex-col">
         <label for="Address2" class="text-12px text-primary-color">Address 2</label>
-        <input type="text" class="generic-input-field">
+        <input type="text" class="generic-input-field" @bind="newProperty.Address2">
       </div>
 
       <div class="flex flex-col">
         <label for="Address 3" class="text-12px text-primary-color">Address 3</label>
-        <input type="text" class="generic-input-field">
+        <input type="text" class="generic-input-field" @bind="newProperty.Address3">
       </div>
 
       <div class="flex flex-col">
         <label for="Address 4" class="text-12px text-primary-color">Address 4</label>
-        <input type="text" class="generic-input-field">
+        <input type="text" class="generic-input-field" @bind="newProperty.Address4">
       </div>
 
       <div class="flex flex-col">
         <label for="Postcode" class="text-12px text-primary-color">Postcode</label>
-        <input type="text" class="generic-input-field">
+        <input type="text" class="generic-input-field" @bind="newProperty.Postcode">
       </div>
 
-      <button class="bg-dark-blue w-full h-10 text-12px mt-3">Create Property</button>
+      <button class="bg-dark-blue w-full h-10 text-12px mt-3" @onclick="() => CreateNewProperty()">Create
+        Property</button>
     </div>
 
   </div>
 </dialog>
 
-<div>
-  <div class="container-border flex justify-between items-center px-3 h-16">
-    <h3 class="text-[#878A99] font-semibold text-sm">Properties</h3>
+@if (properties != null)
+{
+  <div>
+    <div class="container-border flex justify-between items-center px-3 h-16">
+      <h3 class="text-[#878A99] font-semibold text-sm">Properties</h3>
 
-    <button class="rounded-sm w-28 h-10 bg-light-blue text-10px" onclick="my_modal_5.showModal()">+ Create
-      Property</button>
+      <button class="rounded-sm w-28 h-10 bg-light-blue text-10px" onclick="CreatePropertyModal.showModal()">+ Create
+        Property</button>
+    </div>
+
+
+    <div class="container-border-notop px-3 py-3">
+      <input class="generic-input-field w-full" placeholder="Enter Property Name" @bind="filterString" />
+
+      <button class="bg-dark-blue w-full h-10 text-12px mt-3" @onclick="() => FilterGrid()">Confirm Filter</button>
+    </div>
+
+    <div class="container-border-notop mb-6">
+      <div id="propertyGrid" class="ag-theme-quartz" style="height: 400px;"></div>
+    </div>
   </div>
+}
 
-  <div class="container-border-notop px-3 py-3">
-    <select class="generic-input-field w-full">
-      <option>Test1</option>
-      <option>Test1</option>
-      <option>Test1</option>
-    </select>
-
-    <button class="bg-dark-blue w-full h-10 text-12px mt-3">Confirm Filter</button>
-  </div>
-
-  <div class="container-border-notop mb-6">
-    <div id="propertyGrid" class="ag-theme-quartz" style="height: 250px;"></div>
-  </div>
-</div>
 
 @code {
+  public IEnumerable<Property>? properties;
+  public Property newProperty = new Property { };
+  public int count = -1;
+  public PropertyService _propertyService;
+
+  public string filterString = "";
 
   protected override async Task OnAfterRenderAsync(bool firstRender)
   {
-    await CreateGrid();
+    if (firstRender == true)
+    {
+      await CreateGrid(properties);
+    }
+
+  }
+
+  protected override async Task OnInitializedAsync()
+  {
+    _propertyService = new PropertyService(PropertyRepository);
+    properties = await _propertyService.GetAllPropertiesAsync();
+    count = properties.Count();
   }
 
 
   [Inject] IJSRuntime JSRuntime { get; set; }
-  protected async Task CreateGrid()
+  protected async Task CreateGrid(IEnumerable<Property> prop)
   {
-    await JSRuntime.InvokeVoidAsync("propertiesScripts.createGrid");
+    await JSRuntime.InvokeVoidAsync("propertiesScripts.createGrid", prop);
   }
 
+  protected async Task FilterGrid()
+  {
+    if (String.IsNullOrEmpty(filterString))
+    {
+      await CreateGrid(properties);
+    }
+    else
+    {
+      await CreateGrid(properties.Where(p => p.PropertyName.Contains(filterString)));
+    }
+  }
+
+  private async Task CreateNewProperty()
+  {
+    await _propertyService.AddNewPropertyAsync(newProperty);
+
+    newProperty = new Property { };
+    StateHasChanged();
+    await CreateGrid(properties);
+  }
 }

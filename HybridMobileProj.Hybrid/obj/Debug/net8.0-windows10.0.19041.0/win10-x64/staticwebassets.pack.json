@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\app.min.css"
     },
     {
+      "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\css\\app.output.css",
+      "PackagePath": "staticwebassets\\css\\app.output.css"
+    },
+    {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

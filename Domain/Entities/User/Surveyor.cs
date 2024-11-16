@@ -12,4 +12,18 @@ public class Surveyor : UserAbstract
   public override DateTime CreatedDate { get; set; }
 
   public IEnumerable<Survey> Surveys { get; set; } = Enumerable.Empty<Survey>();
+
+  public string UserEnumText
+  {
+    get
+    {
+      return User switch
+      {
+        UserEnum.Surveyor => "Surveyor",
+        UserEnum.PropertyManager => "PropertyManager",
+        UserEnum.Contractor => "Contractor",
+        _ => ""
+      };
+    }
+  }
 }

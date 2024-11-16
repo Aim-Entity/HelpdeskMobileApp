@@ -1,4 +1,4 @@
-﻿@page "/helpdesk/request/list"
+﻿@* @page "/helpdesk/request/list"
 @using Application.Common.Interfaces
 @using Application.PluginInterfaces.Property
 @inject IPropertyRepository propertyRepository
@@ -39,4 +39,4 @@ else
         properties = await propertyRepository.GetPropertiesByNameAsync("");
         count = properties.Count();
     }
-}
+} *@

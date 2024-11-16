@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NM2BUNla6CLALV3iL9hHuZfnMRndD2eooUpc7dIrmdQgum/avePFynGE8Fgv+9q0H1+XNQqGXWvID0vpVrnG0A==",
+  "dgSpecHash": "/68pW29/OKErkSz9IM8XUTBoDLD0apqRDPN2kxn4Sg0FYcfWdMusL/1m/YHy7JCDU036Lj/VR1cEh28TMaxp1g==",
   "success": true,
   "projectFilePath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Hybrid\\HybridMobileProj.Hybrid.csproj",
   "expectedPackageFiles": [
@@ -68,7 +68,7 @@
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.maui.graphics\\8.0.3\\microsoft.maui.graphics.8.0.3.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.3\\microsoft.maui.graphics.win2d.winui.desktop.8.0.3.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.3\\microsoft.maui.resizetizer.8.0.3.nupkg.sha512",
-    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.1\\microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.11\\microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
@@ -220,7 +220,13 @@
     "C:\\Users\\BilalUddin\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
-    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-arm\\8.0.11\\microsoft.netcore.app.runtime.mono.android-arm.8.0.11.nupkg.sha512",
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-x86\\8.0.11\\microsoft.netcore.app.runtime.mono.android-x86.8.0.11.nupkg.sha512",
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-x64\\8.0.11\\microsoft.netcore.app.runtime.mono.android-x64.8.0.11.nupkg.sha512",
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-arm64\\8.0.11\\microsoft.netcore.app.runtime.mono.android-arm64.8.0.11.nupkg.sha512",
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.iossimulator-x64\\8.0.11\\microsoft.netcore.app.runtime.mono.iossimulator-x64.8.0.11.nupkg.sha512",
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.maccatalyst-x64\\8.0.11\\microsoft.netcore.app.runtime.mono.maccatalyst-x64.8.0.11.nupkg.sha512",
+    "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.53\\microsoft.windows.sdk.net.ref.10.0.19041.53.nupkg.sha512"
   ],
   "logs": []
 }

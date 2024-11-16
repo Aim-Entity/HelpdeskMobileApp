@@ -10,10 +10,17 @@ public class Note
   public string Message { get; set; }
   public DateTime CreatedDate { get; set; } = DateTime.Now;
 
-  public enum UserEnum
+  public string UserEnumText
   {
-    PropertyManager,
-    Surveyor,
-    Contractor
+    get
+    {
+      return User switch
+      {
+        UserEnum.Surveyor => "Surveyor",
+        UserEnum.PropertyManager => "PropertyManager",
+        UserEnum.Contractor => "Contractor",
+        _ => ""
+      };
+    }
   }
 }

@@ -8,4 +8,18 @@ public class HourlyRate
   public UserEnum User { get; set; }
 
   public double Rate { get; set; }
+
+  public string UserEnumText
+  {
+    get
+    {
+      return User switch
+      {
+        UserEnum.Surveyor => "Surveyor",
+        UserEnum.PropertyManager => "PropertyManager",
+        UserEnum.Contractor => "Contractor",
+        _ => ""
+      };
+    }
+  }
 }

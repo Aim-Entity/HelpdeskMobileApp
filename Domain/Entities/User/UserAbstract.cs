@@ -9,4 +9,17 @@ abstract public class UserAbstract
   public abstract UserEnum User { get; set; }
   public abstract DateTime CreatedDate { get; set; }
 
+  public string UserEnumText
+  {
+    get
+    {
+      return User switch
+      {
+        UserEnum.Surveyor => "Surveyor",
+        UserEnum.PropertyManager => "PropertyManager",
+        UserEnum.Contractor => "Contractor",
+        _ => ""
+      };
+    }
+  }
 }

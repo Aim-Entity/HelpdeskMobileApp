@@ -13,4 +13,18 @@ public class Contractor : UserAbstract
 
   public string ServiceType { get; set; }
   public string ServiceName { get; set; }
+
+  public string UserEnumText
+  {
+    get
+    {
+      return User switch
+      {
+        UserEnum.Surveyor => "Surveyor",
+        UserEnum.PropertyManager => "PropertyManager",
+        UserEnum.Contractor => "Contractor",
+        _ => ""
+      };
+    }
+  }
 }

@@ -1,5 +1,3 @@
-using HybridMobileProj.Server.Components;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,7 +19,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapRazorComponents<App>()
+app.MapRazorComponents<HybridMobileProj.Server.Components.App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();

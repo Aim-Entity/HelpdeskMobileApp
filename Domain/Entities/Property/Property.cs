@@ -18,5 +18,21 @@ namespace Domain.Entities.Property
         public string Address3 { get; set; } = string.Empty;
         public string Address4 { get; set; } = string.Empty;
         public string Postcode { get; set; } = string.Empty;
+
+        public UserEnum Manager { get; set; }
+
+        public string UserEnumText
+        {
+            get
+            {
+                return Manager switch
+                {
+                    UserEnum.Surveyor => "Surveyor",
+                    UserEnum.PropertyManager => "PropertyManager",
+                    UserEnum.Contractor => "Contractor",
+                    _ => ""
+                };
+            }
+        }
     }
 }
