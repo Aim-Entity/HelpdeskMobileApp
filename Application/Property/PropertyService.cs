@@ -30,16 +30,5 @@ namespace Application.Property
             GetAllProperties getAllProperties = new GetAllProperties(propertyRepository);
             return await getAllProperties.GetAllAsync();
         }
-        /*
-        public async Task<IEnumerable<PropertyDTO>> GetPropertiesByNameAsync(string name = "")
-        {
-            return NotImplementedException;
-        }
-        public async Task<IEnumerable<PropertyDTO>> GetAllPropertiesAsync(string name = "")
-        {
-            return NotImplementedException;
-        }
-        */
-
     }
 }

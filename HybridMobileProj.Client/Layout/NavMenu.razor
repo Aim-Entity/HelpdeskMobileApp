@@ -1,12 +1,36 @@
-﻿<div class="flex w-full justify-between mobile-padding h-[4.375rem] relative z-[10] bg-white drop-shadow">
+﻿@using Application.PluginInterfaces.User
+@using Application.User
+@using Domain.Entities.User
+@using Domain.Enums
+@using HybridMobileProj.Client.Stores.Users
+
+@inject IPropertyManagerRepository PropertyManagerRepository
+@inject IContractorRepository ContractorRepository
+@inject ISurveyorRepository SurveyorRepository
+@inject CurrentUser CurrentUser
+
+<div class="flex w-full justify-between mobile-padding h-[4.375rem] relative z-[10] bg-white drop-shadow">
     <img src="images/right-arrow.svg" alt=""
         class="transition-all duration-200 ease-in-out w-4 cursor-pointer @(navState == true ? "rotate-90" : "rotate-0")"
         @onclick=ToggleNav>
     <div class="flex items-center justify-between gap-1">
-        <img src="images/user-icon.svg" alt="" class="w-5">
+        <img src="images/user-icon.svg" alt="" class="w-7 h-7 cursor-pointer"
+            @onclick="() => showUserInfo = !showUserInfo">
         <div class="">
             <h3 class="text-12px text-primary-color">Bilal Uddin</h3>
             <p class="text-10px text-secondary-color">Property Manager</p>
+        </div>
+
+        <div
+            class="border-x-2 border-y-2 z-[1000] absolute right-5 top-14 max-h-96 w-80 overflow-auto rounded border border-[#E9EBEC] bg-white px-4 py-4 @(showUserInfo ? "block" : "hidden")">
+            <h3 class="text-base font-semibold capitalize text-[#878A99]">Test</h3>
+            <p class="mt-1 cursor-pointer text-sm text-[#878A99] flex justify-between gap-4">
+                <b @onclick="(() => UpdateCurrentUser(UserEnum.PropertyManager))">PM</b>
+                <b @onclick="(() => UpdateCurrentUser(UserEnum.Contractor))">Contractor</b>
+                <b @onclick="(() => UpdateCurrentUser(UserEnum.Surveyor))">Surveyor</b>
+            </p>
+
+            <p>@CurrentUser.User</p>
         </div>
     </div>
 </div>
@@ -37,11 +61,46 @@
 
 @code
 {
+    bool showUserInfo = false;
+
+    object LoggedUser = new Contractor { Id = 1, FullName = "Contractor" };
+
     bool navState { get; set; } = false; // False = closed. True = open
+    public PropertyManagerService _propertyManagerService;
+    public ContractorService _contractorService;
+    public SurveyorService _surveyorService;
 
     protected void ToggleNav()
     {
         navState = !navState;
     }
 
+    protected override async Task OnInitializedAsync()
+    {
+        _propertyManagerService = new PropertyManagerService(PropertyManagerRepository);
+        _surveyorService = new SurveyorService(SurveyorRepository);
+    }
+
+    private async Task UpdateCurrentUser(UserEnum userEnum)
+    {
+        CurrentUser.User = userEnum;
+        CurrentUser.UserID = 1;
+
+        switch (userEnum)
+        {
+            case UserEnum.PropertyManager:
+                CurrentUser.propertyManager = await _propertyManagerService.GetPropertyManagerByIdAsync(1);
+                LoggedUser = (PropertyManager)CurrentUser.GetUser();
+                break;
+            case UserEnum.Contractor:
+                CurrentUser.contractor = new Contractor { Id = 1, FullName = "Contractor" };
+                LoggedUser = (Contractor)CurrentUser.GetUser();
+                break;
+            case UserEnum.Surveyor:
+                CurrentUser.surveyor = await _surveyorService.GetSurveyorByIdAsync(1);
+                LoggedUser = (Surveyor)CurrentUser.GetUser();
+                break;
+        };
+        StateHasChanged();
+    }
 }

@@ -6,5 +6,4 @@ namespace Application.PluginInterfaces.User;
 public interface ISurveyorRepository
 {
   Task<IEnumerable<Surveyor>> GetAllSurveyorsAsync();
-  Task<Surveyor> InsertNewSurveyorAsync(Surveyor surveyor);
 }

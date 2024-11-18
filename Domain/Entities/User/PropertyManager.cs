@@ -9,7 +9,7 @@ public class PropertyManager : UserAbstract
   public override string FullName { get; set; }
   protected override ContactInfo Contact { get; set; }
   public override UserEnum User { get; set; }
-  public override DateTime CreatedDate { get; set; }
+  public override DateTime CreatedDate { get; set; } = DateTime.Now;
 
   public IEnumerable<Domain.Entities.Property.Property> Properties { get; set; } = Enumerable.Empty<Domain.Entities.Property.Property>();
 

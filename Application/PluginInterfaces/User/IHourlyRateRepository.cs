@@ -6,5 +6,4 @@ namespace Application.PluginInterfaces.User;
 public interface IHourlyRateRepository
 {
   Task<IEnumerable<HourlyRate>> GetAllHourlyRatesAsync();
-  Task<HourlyRate> InsertNewHourlyRateAsync(HourlyRate hourlyRate);
 }

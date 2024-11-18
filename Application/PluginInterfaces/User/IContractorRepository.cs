@@ -6,5 +6,4 @@ namespace Application.PluginInterfaces.User;
 public interface IContractorRepository
 {
   Task<IEnumerable<Contractor>> GetAllContractorsAsync();
-  Task<Contractor> InsertNewContractorAsync(Contractor contractor);
 }
