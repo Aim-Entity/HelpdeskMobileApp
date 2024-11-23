@@ -10,8 +10,7 @@ namespace Domain.Entities.Property
 {
     public class Property
     {
-        [Key]
-        public int Id { get; set; }
+        public Guid Guid { get; set; } = System.Guid.NewGuid();
         public string PropertyName { get; set; }
         public string Address1 { get; set; } = string.Empty;
         public string Address2 { get; set; } = string.Empty;

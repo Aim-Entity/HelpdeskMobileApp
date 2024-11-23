@@ -1,23 +1,102 @@
-﻿<div class="container-border-notop px-3 py-4 flex flex-col gap-4">
+﻿@using Application.Job
+@using Application.PluginInterfaces.Job
+@using Application.PluginInterfaces.User
+@using Application.User
+@using Domain.Entities.Job
+@using Domain.Entities.User
+@using HybridMobileProj.Client.Stores.Users
+
+@inject IRequestRepository RequestRepository
+@inject IContractorRepository ContractorRepository
+@inject CurrentUser CurrentUser
+
+<div class="container-border-notop px-3 py-4 flex flex-col gap-4">
   <div class="flex flex-col gap-2">
     <h3 class="text-12px text-primary-color font-semibold">Address Info</h3>
-    <ContactLine Text="James Holt Avenue" />
-    <ContactLine Text="Kirby" />
-    <ContactLine Text="Merseyside" />
-    <ContactLine Text="L32 5TD" />
+    <ContactLine Text="@request.Property.Address1" />
+    <ContactLine Text="@request.Property.Address2" />
+    <ContactLine Text="@request.Property.Address3" />
+    <ContactLine Text="@request.Property.Postcode" />
   </div>
 
   <div class="flex flex-col gap-2">
     <h3 class="text-12px text-primary-color font-semibold">Contact Info</h3>
-    <ContactLine Text="Rachael Junge - Managing Director" />
-    <ContactLine Text="0154 587 1424" />
-    <ContactLine Text="KirkbyHouseCareHome.HomeAdministrator@hc-one.co.uk" />
+    <ContactLine Text="@request.PropertyManager.FullName" />
+    <ContactLine Text="@request.PropertyManager.Contact.Telephone" />
+    <ContactLine Text="@request.PropertyManager.Contact.Email" />
   </div>
 
-  <div class="flex flex-col gap-2">
+  <div class="flex flex-col gap-2 ">
     <h3 class="text-12px text-primary-color font-semibold">Contractor Info</h3>
-    <ContractorBidPanel Bid="£12,671.21" Contractor="RED Inc. " />
-    <ContractorBidPanel Bid="£10,112.01" Contractor="Blu Corp" />
+
+    <input type="number"
+      class="generic-input-field w-full @(CurrentUser.User != Domain.Enums.UserEnum.Contractor ? "hidden" : "block") @(request.JobStatus == Domain.Enums.JobStatusEnum.SurveyorManagerSection ? "hidden" : "block")"
+      placeholder="Enter Bid" @bind="newBid.CurrentBid">
+    <button
+      class="w-full h-10 bg-green-700 text-white @(CurrentUser.User != Domain.Enums.UserEnum.Contractor ? "hidden" : "block") @(request.JobStatus == Domain.Enums.JobStatusEnum.SurveyorManagerSection ? "hidden" : "block")"
+      @onclick="() => AddBid()">Submit Bid</button>
+
+    @if (request.JobStatus == Domain.Enums.JobStatusEnum.ContractorManagerSection)
+    {
+      @foreach (var bid in request.BidSelection)
+      {
+        <ContractorBidPanel Bid="@bid" Contractor="@bid.Contractor" request="request" OnDataUpdated="@UpdateBid"
+          Accepted=false />
+      }
+    }
+    else if (request.JobStatus == Domain.Enums.JobStatusEnum.SurveyorManagerSection)
+    {
+      <ContractorBidPanel Bid="@request.CurrentBid" Contractor="@request.CurrentBid.Contractor" request="request"
+        OnDataUpdated="@UpdateBid" Accepted=true />
+    }
+
   </div>
 
 </div>
+
+@code {
+  [Parameter]
+  public Request request { get; set; }
+  public RequestService _requestService;
+  public ContractorService _contractorService;
+
+  public IEnumerable<Contractor> contractors = Enumerable.Empty<Contractor>();
+  public Bid newBid = new Bid { };
+
+  protected override async Task OnInitializedAsync()
+  {
+    _requestService = new RequestService(RequestRepository);
+
+    _contractorService = new ContractorService(ContractorRepository);
+    contractors = await _contractorService.GetAllContractorsAsync();
+  }
+
+  [Inject] IJSRuntime JSRuntime { get; set; }
+  protected async Task CreateAlert(string message)
+  {
+    await JSRuntime.InvokeVoidAsync("alerts.toggleAlert", message);
+  }
+
+  public async Task AddBid()
+  {
+    if (newBid.CurrentBid <= request.MaxBid)
+    {
+      newBid.Contractor = contractors.FirstOrDefault(c => c.FullName == "Bilal Contractor");
+      request.BidSelection.Add(newBid);
+      await _requestService.UpdateRequestAsync(request);
+
+      newBid = new Bid { };
+      StateHasChanged();
+    }
+    else
+    {
+      await CreateAlert("You have exceeded the maximum bid for this request");
+    }
+
+  }
+
+  public async Task UpdateBid()
+  {
+    StateHasChanged();
+  }
+}

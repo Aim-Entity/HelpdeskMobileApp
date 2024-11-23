@@ -4,7 +4,8 @@ namespace Domain.Entities.User;
 
 public class HourlyRate
 {
-  public int Id { get; set; }
+  public Guid Guid { get; set; } = System.Guid.NewGuid();
+
   public UserEnum User { get; set; }
 
   public double Rate { get; set; }

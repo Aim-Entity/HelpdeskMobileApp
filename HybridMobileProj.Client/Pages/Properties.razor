@@ -77,7 +77,6 @@
 @code {
   public IEnumerable<Property>? properties;
   public Property newProperty = new Property { };
-  public int count = -1;
   public PropertyService _propertyService;
 
   public string filterString = "";
@@ -95,7 +94,6 @@
   {
     _propertyService = new PropertyService(PropertyRepository);
     properties = await _propertyService.GetAllPropertiesAsync();
-    count = properties.Count();
   }
 
 

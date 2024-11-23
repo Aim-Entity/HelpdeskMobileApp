@@ -4,10 +4,10 @@ namespace Domain.Entities.User;
 
 public class PropertyManager : UserAbstract
 {
-  public int Id { get; set; }
+  public Guid Guid { get; set; } = System.Guid.NewGuid();
 
   public override string FullName { get; set; }
-  protected override ContactInfo Contact { get; set; }
+  public override ContactInfo Contact { get; set; }
   public override UserEnum User { get; set; }
   public override DateTime CreatedDate { get; set; } = DateTime.Now;
 

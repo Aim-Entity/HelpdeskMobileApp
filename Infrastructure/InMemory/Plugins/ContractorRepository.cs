@@ -12,7 +12,7 @@ public class ContractorRepository : IContractorRepository
   {
     _contractors = new List<Contractor>()
     {
-        new Contractor { Id = 1, FullName = "Bilal Contractor", User = UserEnum.Contractor}
+        new Contractor { Guid = new Guid(), FullName = "Bilal Contractor", User = UserEnum.Contractor}
     };
   }
 

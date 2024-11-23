@@ -1,83 +1,157 @@
-@* @page "/helpdesk/request/detail" *@
-@page "/test"
+@page "/helpdesk/request/{guid}"
+@using Application.Job
+@using Application.PluginInterfaces.Job
+@using Application.PluginInterfaces.User
+@using Application.User
+@using Domain.Entities.Job
+@using Domain.Entities.User
 @using HybridMobileProj.Client.Components.RequestDetail
+@using Domain.Enums;
+@using HybridMobileProj.Client.Stores.Users
+@using System.Globalization
+
+@inject IRequestRepository RequestRepository
+@inject ISurveyRepository SurveyRepository
+@inject ISurveyorRepository SurveyorRepository
+@inject CurrentUser CurrentUser
 
 <div class="">
   <RequestHeader />
-  <ContactContainer />
+  <ContactContainer request="request" />
 
   <div class="flex flex-col gap-4 px-3 py-6 container-border">
     <div class="flex flex-col">
       <label class="text-12px text-primary-color">Details Of Repair</label>
-      <input type="text" class="generic-input-field w-full h-14">
+      <textarea
+        class="h-12 pt-2 @(request.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="request.DetailsOfRepair" disabled="@(request.JobStatus != JobStatusEnum.PropertyManagerSection)">
+      </textarea>
     </div>
 
-    <div class="flex flex-col">
-      <label class="text-12px text-primary-color">Contact Name</label>
-      <input type="text" class="generic-input-field w-full">
-    </div>
 
-    <div class="flex flex-col">
-      <div class="grid grid-cols-2 grid-rows-1 gap-3">
-        <div class="">
-          <label class="text-12px text-primary-color">Telephone</label>
-          <input type="tel" class="generic-input-field w-full">
-        </div>
-
-        <div class="">
-          <label class="text-12px text-primary-color">Email</label>
-          <input type="email" class="generic-input-field w-full">
-        </div>
-      </div>
-    </div>
-
-    <div class="flex flex-col">
+    <div class=" flex flex-col">
       <label class="text-12px text-primary-color">Compliance</label>
-      <input type="text" class="generic-input-field w-full">
+      <input type="text"
+        class="@(request.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="request.Compliance" disabled="@(request.JobStatus != JobStatusEnum.PropertyManagerSection)">
     </div>
 
     <div class="flex flex-col">
       <label class="text-12px text-primary-color">Job type</label>
-      <input type="text" class="generic-input-field w-full">
+      <input type="text"
+        class="@(request.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="request.JobType" disabled="@(request.JobStatus != JobStatusEnum.PropertyManagerSection)">
+    </div>
+
+    <div class="flex flex-col">
+      <label class="text-12px text-primary-color">Max Bid</label>
+      <input type="number"
+        class="@(request.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="request.MaxBid" disabled="@(request.JobStatus != JobStatusEnum.PropertyManagerSection)">
     </div>
 
     <div class="flex flex-col">
       <label class="text-12px text-primary-color">Deadline</label>
-      <select class="generic-input-field w-full">
-        <option>1 Day</option>
-        <option>2 Days</option>
-        <option>3 Days</option>
-        <option>5 Days</option>
+      <select class="@(request.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="request.Deadline" disabled="@(request.JobStatus != JobStatusEnum.PropertyManagerSection)">
+        <option value=1>1 Day</option>
+        <option value=2>2 Days</option>
+        <option value=3>3 Days</option>
+        <option value=5>5 Days</option>
       </select>
     </div>
 
-    <button class="bg-dark-blue w-full h-10 text-12px mt-3">Create Request</button>
+    <button
+      class="@(request.JobStatus == JobStatusEnum.PropertyManagerSection ? "bg-dark-blue" : InactiveFields) w-full h-10 text-12px mt-3"
+      @onclick="() => UpdateRequest()">Create Request</button>
   </div>
 
   <div class="flex flex-col gap-4 px-3 py-6 container-border">
-    <div class="file-field-border w-full h-36 flex justify-center items-center">
-      <div class="flex flex-col gap-2 justify-center items-center">
-        <img src="images/upload.svg" alt="Upload" class="w-8 h-8">
-        <h2 class="text-base font-semibold">Click To Upload</h2>
-      </div>
-    </div>
+    <label
+      class="custom-file-upload cursor-pointer @(CurrentUser.User == UserEnum.Surveyor && request.JobStatus == JobStatusEnum.SurveyorManagerSection ? "block" : "hidden")">
+      <InputFile id="dropzone-file" class="hidden" OnChange="@OnInputFileChange"></InputFile>
 
-    <div class="">
-      <img src="images/survey.png" alt="Survey" class="object-cover">
-      <div class="flex justify-between mt-1">
-        <p class="text-secondary-color text-10px">By Bilal Uddin</p>
-        <p class="text-secondary-color text-10px">30/9/2024</p>
+      <div class="file-field-border w-full h-36 flex justify-center items-center">
+        <div class="flex flex-col gap-2 justify-center items-center">
+          <img src="images/upload.svg" alt="Upload" class="w-8 h-8">
+          <h2 class="text-base font-semibold">Click To Upload</h2>
+        </div>
       </div>
-    </div>
+    </label>
 
-    <div class="">
-      <img src="images/survey.png" alt="Survey" class="object-cover">
-      <div class="flex justify-between mt-1">
-        <p class="text-secondary-color text-10px">By Bilal Uddin</p>
-        <p class="text-secondary-color text-10px">30/9/2024</p>
-      </div>
-    </div>
+    @if (request.Surveyor != null)
+    {
+      @foreach (var photo in request.Surveyor.Surveys)
+      {
+        <div class="">
+          <img src="@photo.Image" alt="Survey" class="object-cover w-full">
+          <div class="flex justify-between mt-1">
+            <p class="text-secondary-color text-10px">By @request.Surveyor.FullName</p>
+            <p class="text-secondary-color text-10px">@photo.CreatedDate.ToString("f", new CultureInfo("en-GB"))</p>
+          </div>
+        </div>
+      }
+    }
 
-    <button class="bg-success-green w-full h-10 text-12px mt-3">Pay Contractor</button>
+    <button
+      class="bg-success-green w-full h-10 text-12px mt-3 @(CurrentUser.User == UserEnum.Surveyor && request.JobStatus == JobStatusEnum.SurveyorManagerSection ? "block" : "hidden")"
+      @onclick="() => CompleteSurvey()">Complete
+      Survey</button>
   </div>
 </div>
+
+@code {
+  [Parameter]
+  public string? Guid { get; set; }
+
+  public RequestService _requestService;
+  public SurveyorService _surveyorService;
+  public Request request = new Request { };
+
+  public string ActiveFields = "generic-input-field w-full";
+  public string InactiveFields = "generic-input-field w-full border-dashed cursor-not-allowed bg-gray-100";
+
+  protected override async Task OnInitializedAsync()
+  {
+    _requestService = new RequestService(RequestRepository);
+    _surveyorService = new SurveyorService(SurveyorRepository);
+
+    request = await _requestService.GetRequestByGuidAsync(new Guid(Guid));
+  }
+
+  public async Task UpdateRequest()
+  {
+    request.JobStatus = JobStatusEnum.ContractorManagerSection;
+    await _requestService.UpdateRequestAsync(request);
+    StateHasChanged();
+  }
+
+  private const long MaxFileSize = 1024 * 1024 * 15;
+
+  private async Task OnInputFileChange(InputFileChangeEventArgs e)
+  {
+    var selectedFiles = e.GetMultipleFiles(30);
+    foreach (var file in selectedFiles)
+    {
+      var fullImage = await file.RequestImageFileAsync("image/jpeg", maxHeight: 1024, maxWidth: 1024);
+      await using var fullImageStream = fullImage.OpenReadStream(MaxFileSize);
+      using MemoryStream ms = new();
+      await fullImageStream.CopyToAsync(ms);
+
+      await _surveyorService.AddSurvey(request.Surveyor, new Survey
+        {
+          Image =
+        $"data:image/jpeg;base64,{Convert.ToBase64String(ms.ToArray())}"
+        });
+    }
+
+    StateHasChanged();
+  }
+
+  private async Task CompleteSurvey()
+  {
+    request.JobStatus = JobStatusEnum.Complete;
+    await _requestService.UpdateRequestAsync(request);
+
+  }
+}

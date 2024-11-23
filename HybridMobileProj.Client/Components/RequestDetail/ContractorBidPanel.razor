@@ -1,22 +1,65 @@
-﻿<div class="container-border p-3 flex justify-between items-center">
+﻿@using Application.Job
+@using Application.PluginInterfaces.Job
+@using Application.PluginInterfaces.User
+@using Application.User
+@using Domain.Entities.Job;
+@using Domain.Entities.User
+@inject IRequestRepository RequestRepository
+@inject ISurveyorRepository SurveyorRepository
+
+<div class="container-border p-3 flex justify-between items-center">
   <div class="flex flex-col gap-[2px]">
-    <h1 class="text-primary-color text-base font-semibold">@Bid</h1>
-    <p class="text-secondary-color text-12px">@Contractor</p>
+    <h1 class="text-primary-color text-base font-semibold">£@Bid.CurrentBid</h1>
+    <p class="text-secondary-color text-12px">@Contractor.FullName</p>
   </div>
-  <div class="flex gap-1">
-    <div class="w-6 h-6 rounded-sm bg-light-blue flex justify-center items-center">
+  <div class="flex gap-1 @(Accepted == false ? "block" : "hidden")">
+    <div class="w-6 h-6 rounded-sm bg-light-blue flex justify-center items-center" @onclick="() => AcceptBid()">
       <img src="images/check.svg" alt="Check">
     </div>
     <div class="w-6 h-6 rounded-sm bg-danger-red flex justify-center items-center">
       <img src="images/cross.svg" alt="cross">
     </div>
   </div>
+  <div class="flex @(Accepted != false ? "block" : "hidden")">
+    <div class="px-2 h-6 rounded-sm bg-light-blue flex justify-center items-center">
+      <p class="text-12px">Current Contractor</p>
+    </div>
+  </div>
 </div>
 
 @code {
   [Parameter]
-  public string Bid { get; set; }
+  public Bid Bid { get; set; }
   [Parameter]
-  public string Contractor { get; set; }
+  public Contractor Contractor { get; set; }
+  [Parameter]
+  public Request request { get; set; }
+  [Parameter]
+  public EventCallback OnDataUpdated { get; set; }
+  [Parameter]
+  public bool Accepted { get; set; }
 
+  public RequestService _requestService;
+  public SurveyorService _surveyorService;
+
+
+  protected override async Task OnInitializedAsync()
+  {
+    _requestService = new RequestService(RequestRepository);
+    _surveyorService = new SurveyorService(SurveyorRepository);
+  }
+
+  public async Task AcceptBid()
+  {
+    request.CurrentBid = Bid;
+    request.BidSelection = new List<Bid> { };
+    request.JobStatus = Domain.Enums.JobStatusEnum.SurveyorManagerSection;
+    request.Contractor = Contractor;
+    var surveyor = await _surveyorService.GetAllSurveyorsAsync();
+    request.Surveyor = surveyor.FirstOrDefault(s => s.FullName == "Bilal Surveyor");
+
+    await _requestService.UpdateRequestAsync(request);
+
+    await OnDataUpdated.InvokeAsync();
+  }
 }

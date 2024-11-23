@@ -12,7 +12,7 @@ public class SurveyorRepository : ISurveyorRepository
   {
     _surveyors = new List<Surveyor>()
     {
-        new Surveyor { Id = 1, FullName = "Bilal Surveyor", User = UserEnum.Surveyor}
+        new Surveyor { Guid = new Guid(), FullName = "Bilal Surveyor", User = UserEnum.Surveyor}
     };
   }
 

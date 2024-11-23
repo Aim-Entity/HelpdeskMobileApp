@@ -91,85 +91,16 @@
             }
         };
 
-        window.jobScripts = {
-            createGrid: function () {
-                // Grid Options: Contains all of the Data Grid configurations
-                let jobColumnDef = [
-                    {
-                        headerName: "Link",
-                        filter: 'agTextColumnFilter',
-                        flex: 2,
-                        cellRenderer: params => {
-                            let container = document.createElement("div");
-
-                            let btn = document.createElement("button");
-                            btn.className += "bg-light-blue text-white w-full h-[50%] rounded-sm";
-                            
-                            let link = document.createElement("a");
-                            link.href = "/test"
-
-                            container.append(link);
-                            link.appendChild(btn);
-
-                            btn.innerHTML = "View"
-                            return container;
-                        }
-                        //valueGetter: params => { return params.data.RowNumber }
-                    },
-                    {
-                        field: "ID",
-                        headerName: "ID",
-                        filter: 'agTextColumnFilter',
-                        //valueGetter: params => { return params.data.RowNumber }
-                    },
-                    {
-                        field: "Status",
-                        filter: 'agTextColumnFilter',
-                        headerName: "Status",
-                        //valueGetter: params => { return params.data.name }
-                    },
-                    {
-                        field: "Contractor",
-                        headerName: "Contractor",
-                        filter: 'agTextColumnFilter',
-                    },
-                    {
-                        field: "RaisedAt",
-                        headerName: "Raised At",
-                        filter: 'agTextColumnFilter',
-                    },
-                    {
-                        field: "AddressTwo",
-                        headerName: "Address 2",
-                        filter: 'agTextColumnFilter',
-                    },
-                    {
-                        field: "AddressThree",
-                        headerName: "Address 3",
-                        filter: 'agTextColumnFilter',
-                    },
-                    {
-                        field: "AddressFour",
-                        headerName: "Address 4",
-                        filter: 'agTextColumnFilter',
-                    },
-                    {
-                        field: "Postcode",
-                        headerName: "Postcode",
-                        filter: 'agTextColumnFilter',
-                    },
-                ];
-
-
-                // Your Javascript code to create the Data Grid
-                const myGridElement = document.querySelector('#RequestListGrid');
-                let gridAPI = agGrid.createGrid(myGridElement, getGenericGridOptions());
-                gridAPI.setGridOption("columnDefs", jobColumnDef);
+        window.alerts =
+        {
+            toggleAlert: function (alertMessage) {
+                alert(alertMessage);
             }
-        }
+        };
     </script>
 
     <script src="js/properties.js"></script>
+    <script src="js/job.js"></script>
 </body>
 
 </html>

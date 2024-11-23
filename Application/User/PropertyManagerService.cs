@@ -20,9 +20,9 @@ public class PropertyManagerService : IPropertyManagerService
     return await getAllPropertyManager.GetAllAsync();
   }
 
-  public async Task<PropertyManager> GetPropertyManagerByIdAsync(int userId)
+  public async Task<PropertyManager> GetPropertyManagerByIdAsync(Guid guid)
   {
     var result = await this.GetAllPropertyManagersAsync();
-    return result.FirstOrDefault(m => m.Id == userId);
+    return result.FirstOrDefault(m => m.Guid == guid);
   }
 }

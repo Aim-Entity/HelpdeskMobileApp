@@ -1,3 +1,4 @@
+using Application.PluginInterfaces.Job;
 using Application.PluginInterfaces.Property;
 using Application.PluginInterfaces.User;
 using Application.Property;
@@ -15,7 +16,10 @@ builder.Services.AddSingleton<IPropertyRepository, PropertyRepository>();
 builder.Services.AddSingleton<IPropertyManagerRepository, PropertyManagerRepository>();
 builder.Services.AddSingleton<IContractorRepository, ContractorRepository>();
 builder.Services.AddSingleton<ISurveyorRepository, SurveyorRepository>();
+builder.Services.AddSingleton<ISurveyRepository, SurveyRepository>();
+builder.Services.AddSingleton<IRequestRepository, RequestRepository>();
+builder.Services.AddSingleton<IBidRepository, BidRepository>();
 
-builder.Services.AddScoped<CurrentUser>();
+builder.Services.AddSingleton<CurrentUser>();
 
 await builder.Build().RunAsync();

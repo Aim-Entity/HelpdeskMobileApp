@@ -12,7 +12,7 @@ public class PropertyManagerRepository : IPropertyManagerRepository
   {
     _propertyManagers = new List<PropertyManager>()
     {
-        new PropertyManager { Id = 1, FullName = "Bilal Manager", User = UserEnum.PropertyManager}
+        new PropertyManager { Guid = new Guid(), FullName = "Bilal Manager", User = UserEnum.PropertyManager, Contact = new ContactInfo{ Telephone = "123 456 789", Email = "TestEmail@gmail.com"}}
     };
   }
 

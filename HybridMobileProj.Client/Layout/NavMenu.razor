@@ -25,9 +25,9 @@
             class="border-x-2 border-y-2 z-[1000] absolute right-5 top-14 max-h-96 w-80 overflow-auto rounded border border-[#E9EBEC] bg-white px-4 py-4 @(showUserInfo ? "block" : "hidden")">
             <h3 class="text-base font-semibold capitalize text-[#878A99]">Test</h3>
             <p class="mt-1 cursor-pointer text-sm text-[#878A99] flex justify-between gap-4">
-                <b @onclick="(() => UpdateCurrentUser(UserEnum.PropertyManager))">PM</b>
-                <b @onclick="(() => UpdateCurrentUser(UserEnum.Contractor))">Contractor</b>
-                <b @onclick="(() => UpdateCurrentUser(UserEnum.Surveyor))">Surveyor</b>
+                <b @onclick="() => CurrentUser.UpdateUserType(UserEnum.PropertyManager)">PM</b>
+                <b @onclick="() => CurrentUser.UpdateUserType(UserEnum.Contractor)">Contractor</b>
+                <b @onclick="() => CurrentUser.UpdateUserType(UserEnum.Surveyor)">Surveyor</b>
             </p>
 
             <p>@CurrentUser.User</p>
@@ -47,12 +47,12 @@
             Quotes
         </NavLink>
     </div>
-    <div>
+    <div class="@(CurrentUser.User == UserEnum.PropertyManager ? "block" : "hidden")">
         <NavLink class="nav-link" href="properties" @onclick=ToggleNav>
             Properties
         </NavLink>
     </div>
-    <div>
+    <div class="@(CurrentUser.User == UserEnum.PropertyManager ? "block" : "hidden")">
         <NavLink class="nav-link" href="weather" @onclick=ToggleNav>
             Compliances
         </NavLink>
@@ -63,12 +63,15 @@
 {
     bool showUserInfo = false;
 
-    object LoggedUser = new Contractor { Id = 1, FullName = "Contractor" };
+    object LoggedUser;
 
     bool navState { get; set; } = false; // False = closed. True = open
     public PropertyManagerService _propertyManagerService;
     public ContractorService _contractorService;
     public SurveyorService _surveyorService;
+
+    public IEnumerable<PropertyManager> propertyManagers;
+    public IEnumerable<Surveyor> surveyors;
 
     protected void ToggleNav()
     {
@@ -77,30 +80,18 @@
 
     protected override async Task OnInitializedAsync()
     {
+        CurrentUser.OnChange += StateHasChanged;
+        CurrentUser.UpdateUserType(UserEnum.PropertyManager);
+
         _propertyManagerService = new PropertyManagerService(PropertyManagerRepository);
         _surveyorService = new SurveyorService(SurveyorRepository);
+
+        propertyManagers = await _propertyManagerService.GetAllPropertyManagersAsync();
+        surveyors = await _surveyorService.GetAllSurveyorsAsync();
     }
 
-    private async Task UpdateCurrentUser(UserEnum userEnum)
+    public void Dispose()
     {
-        CurrentUser.User = userEnum;
-        CurrentUser.UserID = 1;
-
-        switch (userEnum)
-        {
-            case UserEnum.PropertyManager:
-                CurrentUser.propertyManager = await _propertyManagerService.GetPropertyManagerByIdAsync(1);
-                LoggedUser = (PropertyManager)CurrentUser.GetUser();
-                break;
-            case UserEnum.Contractor:
-                CurrentUser.contractor = new Contractor { Id = 1, FullName = "Contractor" };
-                LoggedUser = (Contractor)CurrentUser.GetUser();
-                break;
-            case UserEnum.Surveyor:
-                CurrentUser.surveyor = await _surveyorService.GetSurveyorByIdAsync(1);
-                LoggedUser = (Surveyor)CurrentUser.GetUser();
-                break;
-        };
-        StateHasChanged();
+        CurrentUser.OnChange -= StateHasChanged;
     }
 }

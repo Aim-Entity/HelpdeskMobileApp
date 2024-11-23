@@ -5,7 +5,7 @@ namespace Domain.Entities.Job;
 
 public class Note
 {
-  public int Id { get; set; }
+  public Guid Guid { get; set; } = System.Guid.NewGuid();
   public UserEnum User { get; set; }
   public string Message { get; set; }
   public DateTime CreatedDate { get; set; } = DateTime.Now;

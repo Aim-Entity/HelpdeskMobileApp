@@ -4,8 +4,8 @@ namespace Domain.Entities.User;
 
 public class ContactInfo
 {
-  public int Id { get; set; }
+  public Guid Guid { get; set; } = System.Guid.NewGuid();
 
-  protected string Email { get; set; }
-  protected string Telephone { get; set; }
+  public string Email { get; set; }
+  public string Telephone { get; set; }
 }

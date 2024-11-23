@@ -20,10 +20,16 @@ public class SurveyorService : ISurveyorService
     return await getAllSurveyors.GetAllAsync();
   }
 
-  public async Task<Surveyor> GetSurveyorByIdAsync(int surveyorId)
+  public async Task<Surveyor> GetSurveyorByIdAsync(Guid guid)
   {
     GetAllSurveyors getAllSurveyors = new GetAllSurveyors(_surveyorRepository);
     var result = await getAllSurveyors.GetAllAsync();
-    return result.FirstOrDefault(r => r.Id == surveyorId);
+    return result.FirstOrDefault(r => r.Guid == guid);
+  }
+
+  public async Task<Surveyor> AddSurvey(Surveyor surveyor, Survey survey)
+  {
+    surveyor.Surveys.Add(survey);
+    return surveyor;
   }
 }

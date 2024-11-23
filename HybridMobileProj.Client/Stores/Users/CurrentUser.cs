@@ -13,8 +13,13 @@ public class Users
 
 public class CurrentUser : Users
 {
-  public UserEnum User { get; set; } = UserEnum.PropertyManager;
+  public UserEnum User { get; set; }
 
+  public void UpdateUserType(UserEnum userEnum)
+  {
+    User = userEnum;
+    NotifyStateChanged();
+  }
 
   public object GetUser()
   {
@@ -33,15 +38,13 @@ public class CurrentUser : Users
       return surveyor;
     }
 
+    NotifyStateChanged();
+
     return null;
   }
 
   public int UserID { get; set; } = 1;
 
-  public delegate void Notify();
-  public event Notify? ChangesMade;
-  public void ChangeMade()
-  {
-    ChangesMade?.Invoke();
-  }
+  public event Action OnChange; // event raised when changed
+  private void NotifyStateChanged() => OnChange?.Invoke();
 }

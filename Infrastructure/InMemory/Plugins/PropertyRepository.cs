@@ -15,9 +15,9 @@ namespace Infrastructure.InMemory.Plugins
         {
             _properties = new List<Property>()
             {
-                new Property { Id = 1, PropertyName = "Test Property 1", Address1 = "Address", Address2 = "Address 2", Postcode = "BDBD 22" },
-                new Property { Id = 2, PropertyName = "Test Property 2", Address1 = "Address", Address2 = "Address 2", Postcode = "BDBD 22" },
-                new Property { Id = 3, PropertyName = "Test Property 3", Address1 = "Address", Address2 = "Address 2", Postcode = "BDBD 22" },
+                new Property { Guid = new Guid(), PropertyName = "Test Property 1", Address1 = "Address", Address2 = "Address 2", Postcode = "BDBD 22" },
+                new Property { Guid = new Guid(), PropertyName = "Test Property 2", Address1 = "Address", Address2 = "Address 2", Postcode = "BDBD 22" },
+                new Property { Guid = new Guid(), PropertyName = "Test Property 3", Address1 = "Address", Address2 = "Address 2", Postcode = "BDBD 22" },
             };
         }
 
