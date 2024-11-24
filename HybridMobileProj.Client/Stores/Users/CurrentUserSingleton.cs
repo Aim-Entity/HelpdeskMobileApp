@@ -11,8 +11,32 @@ public class Users
   public Surveyor surveyor { get; set; }
 }
 
-public class CurrentUser : Users
+public class CurrentUserSingleton : Users
 {
+  public CurrentUserSingleton()
+  {
+
+  }
+
+  private static CurrentUserSingleton _instance;
+  private static readonly object _lock = new object();
+
+  public static CurrentUserSingleton Instance()
+  {
+    if (_instance == null)
+    {
+      lock (_lock)
+      {
+        if (_instance == null)
+        {
+          _instance = new CurrentUserSingleton();
+        }
+      }
+    }
+
+    return _instance;
+  }
+
   public UserEnum User { get; set; }
 
   public void UpdateUserType(UserEnum userEnum)

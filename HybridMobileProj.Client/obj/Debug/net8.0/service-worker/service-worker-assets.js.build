@@ -1,16 +1,16 @@
 self.assetsManifest = {
-  "version": "vossdNqQ",
+  "version": "88SQ+M7e",
   "assets": [
     {
       "hash": "sha256-2lykAp+lTumGvas8pKseQaR7knYWNfX45Up9SfyKgo0=",
       "url": "HybridMobileProj.Client.styles.css"
     },
     {
-      "hash": "sha256-ypQwmkAoaju45z7AKxmarWIqOuBDOxl+lBaK+03Sx7E=",
+      "hash": "sha256-IYiGb0VsfV7AVFJyZib4SS8qoYFhqA/asOiZyGMbPgA=",
       "url": "_framework/Application.pdb"
     },
     {
-      "hash": "sha256-oy5irWMMRF/8mSBCGyVVGvthjYyKHdKj+8NkQzr+PEs=",
+      "hash": "sha256-1+w3YlnYFPI+tYxdTDRvqfyqEBmzE/gOTR+slZoxUD0=",
       "url": "_framework/Application.wasm"
     },
     {
@@ -22,27 +22,27 @@ self.assetsManifest = {
       "url": "_framework/Azure.Identity.wasm"
     },
     {
-      "hash": "sha256-72x+f4YgjD2FMXuKA4nBSwXC65E2gJZsTZIf4i6l9+g=",
+      "hash": "sha256-iDkvFSHA849SvhJ8KG7FgTHTa5LjTj4IBGdB2SP6zmM=",
       "url": "_framework/Domain.pdb"
     },
     {
-      "hash": "sha256-5jL1kPJPDP+Nyojdb+LWy4lUnhEnhDqyPucBXq27iK4=",
+      "hash": "sha256-cafDpqxhC8sS/DRsonOaIth8wJ19v9p6Ghi3MzIo9u4=",
       "url": "_framework/Domain.wasm"
     },
     {
-      "hash": "sha256-QtnC/uBj6h+rWLrU2h2wNZ2nc99jes2i6dZmZsag70w=",
+      "hash": "sha256-nkxz//i/UMpM/PiX3OOeyAcM7UMxD9L2BvertNjeXzM=",
       "url": "_framework/HybridMobileProj.Client.pdb"
     },
     {
-      "hash": "sha256-CxURJnMNdf8wRX9/MuKC+0exz/ZaCGNB0DrmZ3OqbIs=",
+      "hash": "sha256-QjO3rS/D0sFMbbJ2gDP2VVKDtN6l3jfPbeNnW+rEWBQ=",
       "url": "_framework/HybridMobileProj.Client.wasm"
     },
     {
-      "hash": "sha256-sHP9VmrY9grkWf4WQuJrgbtz9ys31DfjDmGefTbaD7A=",
+      "hash": "sha256-4Kr3kCnUgIbYtPNayR9S/sF+GmMZ4GsR3lbiMhETFpY=",
       "url": "_framework/Infrastructure.pdb"
     },
     {
-      "hash": "sha256-onSNAjAIm9RoHlD8qGdqX4QEXnnYixvzZLZe8Yh0tEQ=",
+      "hash": "sha256-SulDO+ZgS3uEzbRc9mp6w7spf4G63syRAYzDyNjf3vQ=",
       "url": "_framework/Infrastructure.wasm"
     },
     {
@@ -254,11 +254,11 @@ self.assetsManifest = {
       "url": "_framework/SQLitePCLRaw.provider.e_sqlite3.wasm"
     },
     {
-      "hash": "sha256-pxC+f3GVX1MUVEc8KO18ATplzoMJl5wNAK5l5e2jVjQ=",
+      "hash": "sha256-DWOHyuvRa4M6A0rqysk79t1GO1yTobzEX/u4cdpRfEg=",
       "url": "_framework/Shared.pdb"
     },
     {
-      "hash": "sha256-se7MKYjcXt/UFWIbK5i5fYxL+S+X1soFJew13sQr2b4=",
+      "hash": "sha256-HPpFr/Ouw2hmdIB0LHh1W+YyUd30SP0CnchTynmJx5s=",
       "url": "_framework/Shared.wasm"
     },
     {
@@ -970,7 +970,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-Je/tnMWKAUlzjRJvDoz/hvty8Rw/OCCZ1SalFlaywW4=",
+      "hash": "sha256-ac72/LX4W55wgA0Y0KcPu5lapw0DTRNxIoJK00w1w6U=",
       "url": "_framework/blazor.boot.json"
     },
     {

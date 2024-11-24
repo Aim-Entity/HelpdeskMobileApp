@@ -11,6 +11,9 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<HybridMobileProj.Client.App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
+CurrentUserSingleton CurrentUser = CurrentUserSingleton.Instance();
+
+
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddSingleton<IPropertyRepository, PropertyRepository>();
 builder.Services.AddSingleton<IPropertyManagerRepository, PropertyManagerRepository>();
@@ -20,6 +23,6 @@ builder.Services.AddSingleton<ISurveyRepository, SurveyRepository>();
 builder.Services.AddSingleton<IRequestRepository, RequestRepository>();
 builder.Services.AddSingleton<IBidRepository, BidRepository>();
 
-builder.Services.AddSingleton<CurrentUser>();
+builder.Services.AddSingleton<CurrentUserSingleton>();
 
 await builder.Build().RunAsync();

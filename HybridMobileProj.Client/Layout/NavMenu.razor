@@ -7,7 +7,6 @@
 @inject IPropertyManagerRepository PropertyManagerRepository
 @inject IContractorRepository ContractorRepository
 @inject ISurveyorRepository SurveyorRepository
-@inject CurrentUser CurrentUser
 
 <div class="flex w-full justify-between mobile-padding h-[4.375rem] relative z-[10] bg-white drop-shadow">
     <img src="images/right-arrow.svg" alt=""
@@ -69,6 +68,8 @@
     public PropertyManagerService _propertyManagerService;
     public ContractorService _contractorService;
     public SurveyorService _surveyorService;
+    CurrentUserSingleton CurrentUser = CurrentUserSingleton.Instance();
+
 
     public IEnumerable<PropertyManager> propertyManagers;
     public IEnumerable<Surveyor> surveyors;

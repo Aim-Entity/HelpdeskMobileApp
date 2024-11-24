@@ -11,7 +11,6 @@
 @inject IRequestRepository RequestRepository
 @inject IPropertyManagerRepository PropertyManagerRepository
 @inject IPropertyRepository PropertyRepository
-@inject CurrentUser CurrentUser
 
 <!-- Modal -->
 <dialog id="createRequestModal" class="modal modal-bottom sm:modal-middle">
@@ -71,6 +70,8 @@
   public Request newRequest = new Request { };
   public RequestService _requestService;
   public PropertyService _propertyService;
+  CurrentUserSingleton CurrentUser = CurrentUserSingleton.Instance();
+
 
   public string selectedProperty;
 

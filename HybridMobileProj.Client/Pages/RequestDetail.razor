@@ -13,7 +13,6 @@
 @inject IRequestRepository RequestRepository
 @inject ISurveyRepository SurveyRepository
 @inject ISurveyorRepository SurveyorRepository
-@inject CurrentUser CurrentUser
 
 <div class="">
   <RequestHeader request="request" />
@@ -107,6 +106,9 @@
   public RequestService _requestService;
   public SurveyorService _surveyorService;
   public Request request = new Request { };
+
+  CurrentUserSingleton CurrentUser = CurrentUserSingleton.Instance();
+
 
   public string ActiveFields = "generic-input-field w-full";
   public string InactiveFields = "generic-input-field w-full border-dashed cursor-not-allowed bg-gray-100";
