@@ -1,4 +1,17 @@
-﻿<!-- Modal -->
+﻿@using Application.Job
+@using Application.PluginInterfaces.Job
+@using Application.PluginInterfaces.User
+@using Application.User
+@using Domain.Entities.Job
+@using HybridMobileProj.Client.Stores.Users
+@using System.Globalization
+
+@inject IRequestRepository RequestRepository
+@inject IContractorRepository ContractorRepository
+@inject ISurveyorRepository SurveyorRepository
+@inject IPropertyManagerRepository PropertyManagerRepository
+@inject CurrentUser CurrentUser
+<!-- Modal -->
 <dialog id="createNotesModal" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <form method="dialog" class="modal-backdrop">
@@ -10,24 +23,22 @@
     <div class="flex flex-col gap-3 mt-7">
       <div class="flex flex-col">
         <label for="Name" class="text-12px text-primary-color">New Note</label>
-        <input type="text" class="generic-input-field w-full h-16">
+        <input type="text" class="generic-input-field w-full h-16" @bind="NoteMessage">
       </div>
 
-      <button class="bg-dark-blue w-full h-10 text-12px mt-3">Create Note</button>
+      <button class="bg-dark-blue w-full h-10 text-12px mt-3" @onclick="() => CreateNote()">Create Note</button>
     </div>
 
     <div class="flex flex-col gap-3 mt-3">
-      <div class="container-border px-2 py-3 flex flex-col gap-2">
-        <h2 class="text-primary-color text-12px">20/9/2024 11:32</h2>
-        <p class="text-secondary-color text-12px">Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
-        <p class="text-secondary-color text-[8px]">By Bilal Uddin</p>
-      </div>
+      @foreach (var note in request.Notes)
+      {
+        <div class="container-border px-2 py-3 flex flex-col gap-2">
+          <h2 class="text-primary-color text-12px">@note.CreatedDate.ToString("f", new CultureInfo("en-GB"))</h2>
+          <p class="text-secondary-color text-12px">@note.Message</p>
+          <p class="text-secondary-color text-[8px]">By @note.Username</p>
+        </div>
+      }
 
-      <div class="container-border px-2 py-3 flex flex-col gap-2">
-        <h2 class="text-primary-color text-12px">20/9/2024 11:32</h2>
-        <p class="text-secondary-color text-12px">Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
-        <p class="text-secondary-color text-[8px]">By Bilal Uddin</p>
-      </div>
     </div>
 
   </div>
@@ -46,3 +57,45 @@
 
   </div>
 </div>
+
+@code {
+  [Parameter]
+  public Request request { get; set; }
+  public RequestService _requestService;
+  public ContractorService _contractorService;
+  public SurveyorService _surveyorService;
+  public PropertyManagerService _propertyManagerService;
+
+  public string NoteMessage = "";
+
+  protected override async Task OnInitializedAsync()
+  {
+    _requestService = new RequestService(RequestRepository);
+    _contractorService = new ContractorService(ContractorRepository);
+    _surveyorService = new SurveyorService(SurveyorRepository);
+    _propertyManagerService = new PropertyManagerService(PropertyManagerRepository);
+  }
+
+  private async Task CreateNote()
+  {
+    string username = "";
+    switch (CurrentUser.User)
+    {
+      case Domain.Enums.UserEnum.PropertyManager:
+        username = request.PropertyManager.FullName;
+        break;
+      case Domain.Enums.UserEnum.Surveyor:
+        username = request.Surveyor.FullName;
+        break;
+      case Domain.Enums.UserEnum.Contractor:
+        username = request.Contractor.FullName;
+        break;
+    }
+
+    request.Notes.Add(new Note { Message = NoteMessage, Username = username });
+    await _requestService.UpdateRequestAsync(request);
+
+    NoteMessage = "";
+    StateHasChanged();
+  }
+}

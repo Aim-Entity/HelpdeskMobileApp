@@ -24,6 +24,7 @@ namespace Domain.Entities.Job
 
         public abstract JobStatusEnum JobStatus { get; set; }
         public abstract List<Bid> BidSelection { get; set; }
+        public abstract List<Note> Notes { get; set; }
 
         public string JobStatusText
         {

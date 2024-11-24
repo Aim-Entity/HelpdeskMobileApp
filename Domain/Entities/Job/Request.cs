@@ -18,6 +18,8 @@ public class Request : JobAbstract
   public override PropertyManager PropertyManager { get; set; }
   public override Contractor Contractor { get; set; }
   public override Surveyor Surveyor { get; set; }
+  public override List<Note> Notes { get; set; } = new List<Note> { };
+
 
   public double MaxBid { get; set; }
   public Bid CurrentBid { get; set; }

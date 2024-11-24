@@ -19,6 +19,8 @@ public class Quote : JobAbstract
   public override PropertyManager PropertyManager { get; set; }
   public override Contractor Contractor { get; set; }
   public override Surveyor Surveyor { get; set; }
+  public override List<Note> Notes { get; set; } = new List<Note> { };
+
 
   public Bid Bid { get; set; }
 

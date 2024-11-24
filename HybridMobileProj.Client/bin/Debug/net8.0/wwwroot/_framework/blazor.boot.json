@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "HybridMobileProj.Client",
   "resources": {
-    "hash": "sha256-aCAukUreVnIZOZsRth/XVq9MZ4Y8ZVwISn0hQHQAd24=",
+    "hash": "sha256-sj5toJnboTzRilWvQpmFDTPtU7XqiVzUKPS3EVANngY=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -251,18 +251,18 @@
       "mscorlib.wasm": "sha256-EpWTfh4m/hEcXRFYMCR9YeYHwdUJgcm1laBaxWfq2S4=",
       "netstandard.wasm": "sha256-2kH24/YfHmU3B4eYRyRmiwebYROM4+B9eDWKvMnUdP8=",
       "System.Private.CoreLib.wasm": "sha256-CsySKiP7HYY1pS8LTDE60EkqiX5oHb3WoEZHDNd1yK0=",
-      "Application.wasm": "sha256-5Y9Iq09Mw+OGy07dyURAlDdWoJ7ZPdTUZaf/gPFIdBA=",
-      "Domain.wasm": "sha256-wCfusH8W5xFDZNJ2ma62uKmbW4V8zD4x4om5qjciPVs=",
-      "Infrastructure.wasm": "sha256-E0oZL6v/t1NJoLbzenYSCMqoo55atUA5SczfjPyNghk=",
-      "Shared.wasm": "sha256-HGZsAjQq9B2LiS0YBvWhPpgbhvVYoD1GEVvKpPSGeok=",
-      "HybridMobileProj.Client.wasm": "sha256-HOFH3W66x3/sYZjOe2XCIhjXQ6V65NbJESgoo1to6pw="
+      "Application.wasm": "sha256-oy5irWMMRF/8mSBCGyVVGvthjYyKHdKj+8NkQzr+PEs=",
+      "Domain.wasm": "sha256-5jL1kPJPDP+Nyojdb+LWy4lUnhEnhDqyPucBXq27iK4=",
+      "Infrastructure.wasm": "sha256-onSNAjAIm9RoHlD8qGdqX4QEXnnYixvzZLZe8Yh0tEQ=",
+      "Shared.wasm": "sha256-se7MKYjcXt/UFWIbK5i5fYxL+S+X1soFJew13sQr2b4=",
+      "HybridMobileProj.Client.wasm": "sha256-CxURJnMNdf8wRX9/MuKC+0exz/ZaCGNB0DrmZ3OqbIs="
     },
     "pdb": {
-      "Application.pdb": "sha256-xpGP9ZBBnqpcWpqp9vFerswc5/AKgxqi1b21LLXyvRU=",
-      "Domain.pdb": "sha256-3BmiiKRtFbXI653SglD+wAndTz62+9rv9Rk2/Sg6dJ8=",
-      "Infrastructure.pdb": "sha256-bEqJ6Gh0BfrWKKDWfgE2jt3Vtg4xsVg2oQVyNIW9NCQ=",
-      "Shared.pdb": "sha256-3QCmFzDtJXwMvyqZNlYenElm3pPKO3E2kX4v6l3kM+E=",
-      "HybridMobileProj.Client.pdb": "sha256-2jfAs/JdGl6lbke/qIVTLYIGkJs4EfX/8R+XlUhTs1Q="
+      "Application.pdb": "sha256-ypQwmkAoaju45z7AKxmarWIqOuBDOxl+lBaK+03Sx7E=",
+      "Domain.pdb": "sha256-72x+f4YgjD2FMXuKA4nBSwXC65E2gJZsTZIf4i6l9+g=",
+      "Infrastructure.pdb": "sha256-sHP9VmrY9grkWf4WQuJrgbtz9ys31DfjDmGefTbaD7A=",
+      "Shared.pdb": "sha256-pxC+f3GVX1MUVEc8KO18ATplzoMJl5wNAK5l5e2jVjQ=",
+      "HybridMobileProj.Client.pdb": "sha256-QtnC/uBj6h+rWLrU2h2wNZ2nc99jes2i6dZmZsag70w="
     }
   },
   "cacheBootResources": true,
