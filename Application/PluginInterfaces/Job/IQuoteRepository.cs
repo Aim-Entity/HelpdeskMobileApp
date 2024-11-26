@@ -7,4 +7,5 @@ public interface IQuoteRepository
 {
   Task<IEnumerable<Quote>> GetAllQuotesAsync();
   Task<Quote> InsertNewQuoteAsync(Quote quote);
+  Task<Quote> UpdateQuoteAsync(Quote quote);
 }

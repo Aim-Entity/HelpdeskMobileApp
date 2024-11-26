@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E446E1B4-49A7-4958-A012-82B5512C8AF7}|Application\\Application.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\application\\configureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E446E1B4-49A7-4958-A012-82B5512C8AF7}|Application\\Application.csproj|solutionrelative:application\\configureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E446E1B4-49A7-4958-A012-82B5512C8AF7}|Application\\Application.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\application\\common\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E446E1B4-49A7-4958-A012-82B5512C8AF7}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79580B63-07EB-4F64-B954-9459E5076011}|Domain\\Domain.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\domain\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79580B63-07EB-4F64-B954-9459E5076011}|Domain\\Domain.csproj|solutionrelative:domain\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880E1C79-DB4D-477E-BC90-274303FD66A8}|Shared\\Shared.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\shared\\shared.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{880E1C79-DB4D-477E-BC90-274303FD66A8}|Shared\\Shared.csproj|solutionrelative:shared\\shared.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.client\\stores\\users\\currentusersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|solutionrelative:hybridmobileproj.client\\stores\\users\\currentusersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,19 +71,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConfigureService.cs",
+              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\ConfigureService.cs",
+              "RelativeDocumentMoniker": "Application\\ConfigureService.cs",
+              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\ConfigureService.cs",
+              "RelativeToolTip": "Application\\ConfigureService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:38:15.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:37:37.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Domain\\GlobalUsings.cs",
+              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\GlobalUsings.cs",
+              "RelativeToolTip": "Domain\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:35:43.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shared",
+              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Shared\\Shared.csproj",
+              "RelativeDocumentMoniker": "Shared\\Shared.csproj",
+              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Shared\\Shared.csproj",
+              "RelativeToolTip": "Shared\\Shared.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-26T10:34:22.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CurrentUserSingleton.cs",
               "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
               "RelativeDocumentMoniker": "HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
               "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
               "RelativeToolTip": "HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:46:40.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PropertyController.cs",
               "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Controllers\\PropertyController.cs",
               "RelativeDocumentMoniker": "HybridMobileProj.Server\\Controllers\\PropertyController.cs",
@@ -79,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Program.cs",
               "RelativeDocumentMoniker": "HybridMobileProj.Client\\Program.cs",
@@ -87,12 +154,11 @@
               "RelativeToolTip": "HybridMobileProj.Client\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:37:41.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T21:37:41.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Program.cs",
               "RelativeDocumentMoniker": "HybridMobileProj.Server\\Program.cs",
@@ -100,12 +166,11 @@
               "RelativeToolTip": "HybridMobileProj.Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:37:33.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T21:37:33.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ApiBaseController.cs",
               "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Controllers\\ApiBaseController.cs",
               "RelativeDocumentMoniker": "HybridMobileProj.Server\\Controllers\\ApiBaseController.cs",
@@ -117,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "HybridMobileProj.Client.csproj",
               "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
               "RelativeDocumentMoniker": "HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
@@ -129,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "IPropertyRepository.cs",
               "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\PluginInterfaces\\Property\\IPropertyRepository.cs",
               "RelativeDocumentMoniker": "Application\\PluginInterfaces\\Property\\IPropertyRepository.cs",
@@ -138,10 +203,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T12:32:33.637Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

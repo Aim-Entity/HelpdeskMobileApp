@@ -2,16 +2,23 @@
 @using Application.User
 @using Domain.Entities.User
 @using Domain.Enums
+@using HybridMobileProj.Client.Stores.Undo
 @using HybridMobileProj.Client.Stores.Users
 
+
+@inject NavigationManager NavigationManager
 @inject IPropertyManagerRepository PropertyManagerRepository
 @inject IContractorRepository ContractorRepository
 @inject ISurveyorRepository SurveyorRepository
 
 <div class="flex w-full justify-between mobile-padding h-[4.375rem] relative z-[10] bg-white drop-shadow">
-    <img src="images/right-arrow.svg" alt=""
-        class="transition-all duration-200 ease-in-out w-4 cursor-pointer @(navState == true ? "rotate-90" : "rotate-0")"
-        @onclick=ToggleNav>
+    <div class="flex justify-center items-center gap-3">
+        <img src="images/hamburger.svg" alt="" class="transition-all duration-200 ease-in-out w-4 cursor-pointer"
+            @onclick="ToggleNav">
+        <img src="images/right-arrow.svg" alt=""
+            class="transition-all duration-200 ease-in-out w-4 cursor-pointer rotate-180" @onclick="() => GoBack()">
+    </div>
+
     <div class="flex items-center justify-between gap-1">
         <img src="images/user-icon.svg" alt="" class="w-7 h-7 cursor-pointer"
             @onclick="() => showUserInfo = !showUserInfo">
@@ -28,8 +35,6 @@
                 <b @onclick="() => CurrentUser.UpdateUserType(UserEnum.Contractor)">Contractor</b>
                 <b @onclick="() => CurrentUser.UpdateUserType(UserEnum.Surveyor)">Surveyor</b>
             </p>
-
-            <p>@CurrentUser.User</p>
         </div>
     </div>
 </div>
@@ -42,7 +47,7 @@
         </NavLink>
     </div>
     <div>
-        <NavLink class="nav-link" href="counter" @onclick=ToggleNav>
+        <NavLink class="nav-link" href="quotes" @onclick=ToggleNav>
             Quotes
         </NavLink>
     </div>
@@ -61,6 +66,8 @@
 @code
 {
     bool showUserInfo = false;
+
+    UndoStack Undo = UndoStack.Instance();
 
     object LoggedUser;
 
@@ -81,6 +88,11 @@
 
     protected override async Task OnInitializedAsync()
     {
+        UndoStack Undo = UndoStack.Instance();
+
+        Undo.OnChange += () => StateHasChanged();
+        StateHasChanged();
+
         CurrentUser.OnChange += StateHasChanged;
         CurrentUser.UpdateUserType(UserEnum.PropertyManager);
 
@@ -89,6 +101,15 @@
 
         propertyManagers = await _propertyManagerService.GetAllPropertyManagersAsync();
         surveyors = await _surveyorService.GetAllSurveyorsAsync();
+    }
+
+    private void GoBack()
+    {
+
+        if (Undo.Pointer != 0)
+        {
+            NavigationManager.NavigateTo(Undo.Pop());
+        }
     }
 
     public void Dispose()

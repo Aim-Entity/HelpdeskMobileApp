@@ -1,0 +1,19 @@
+﻿@page "/quotes"
+@using HybridMobileProj.Client.Components.QuoteList
+@using HybridMobileProj.Client.Components.RequestList
+
+<SetPageName CurrURL="/quotes" />
+
+
+<div>
+  <div class="flex flex-col gap-6">
+    <JobInfoCard imagePath="images/property.svg" cardTitle="782" cardDesc="Properties" />
+    <JobInfoCard imagePath="images/jobs.svg" cardTitle="84" cardDesc="Requests & Quotes" />
+    <JobInfoCard imagePath="images/money.svg" cardTitle="£12,671.21" cardDesc="Committed In Bidding" />
+  </div>
+
+  <div class="mt-8">
+    <QuoteListBody />
+  </div>
+
+</div>

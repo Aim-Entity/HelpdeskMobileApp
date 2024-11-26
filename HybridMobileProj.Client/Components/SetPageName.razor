@@ -1,0 +1,12 @@
+﻿@using HybridMobileProj.Client.Stores.Undo
+@code {
+  [Parameter, EditorRequired]
+  public string CurrURL { get; set; }
+
+  UndoStack Undo = UndoStack.Instance();
+
+  protected override void OnParametersSet()
+  {
+    Undo.Push(CurrURL);
+  }
+}

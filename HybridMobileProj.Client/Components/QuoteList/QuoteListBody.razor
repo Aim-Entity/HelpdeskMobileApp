@@ -1,0 +1,135 @@
+﻿@using Application.Job
+@using Domain.Entities.Job;
+@using Application.PluginInterfaces.Job;
+@using Application.PluginInterfaces.User;
+@using Domain.Entities.Property
+@using Application.PluginInterfaces.Property;
+@using Application.Property;
+@using HybridMobileProj.Client.Stores.Users;
+@using Domain.Enums;
+
+@inject IQuoteRepository QuoteRepository
+@inject IPropertyManagerRepository PropertyManagerRepository
+@inject IPropertyRepository PropertyRepository
+
+<!-- Modal -->
+<dialog id="createQuoteModal" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <form method="dialog" class="modal-backdrop">
+      <button class="btn btn-sm btn-circle absolute right-2 top-2 border bg-white">✕</button>
+    </form>
+
+    <h3 class="text-base font-semibold text-[#878A99]">Create New Property</h3>
+
+    <div class="flex flex-col gap-3 mt-7">
+      <div class="flex flex-col">
+        <label for="Name" class="text-12px text-primary-color">Property Name</label>
+        <select class="generic-input-field w-full h-6" @bind="selectedProperty">
+          @foreach (var property in properties)
+          {
+            <option>@property.PropertyName</option>
+          }
+        </select>
+      </div>
+
+      <button class="bg-dark-blue w-full h-10 text-12px mt-3" @onclick="() => CreateNewQuote()">Create
+        Quote</button>
+    </div>
+
+  </div>
+</dialog>
+
+<div>
+  <div class="container-border flex justify-between items-center px-3 h-16">
+    <h3 class="text-[#878A99] font-semibold text-sm">Helpdesk Quotes</h3>
+
+    <button
+      class="rounded-sm w-28 h-10 bg-light-blue text-10px @(CurrentUser.User == UserEnum.PropertyManager ? "block" : "hidden")"
+      onclick="createQuoteModal.showModal()">+ Create
+      Quotes</button>
+  </div>
+
+  <div class="container-border-notop px-3 py-3">
+    <select class="generic-input-field w-full">
+
+      <option>Test1</option>
+    </select>
+
+    <button class="bg-dark-blue w-full h-10 text-12px mt-3">Confirm Filter</button>
+  </div>
+
+  <div class="container-border-notop mb-6">
+    <div id="RequestListGrid" class="ag-theme-quartz" style="height: 250px;"></div>
+  </div>
+</div>
+
+@code {
+  public IEnumerable<Quote>? quotes;
+  public IEnumerable<Property>? properties;
+  public Quote newQuote = new Quote { };
+  public QuoteService _quoteService;
+  public PropertyService _propertyService;
+  CurrentUserSingleton CurrentUser = CurrentUserSingleton.Instance();
+
+
+  public string selectedProperty;
+
+  public string filterString = "";
+
+  protected override async Task OnAfterRenderAsync(bool firstRender)
+  {
+    if (firstRender == true)
+    {
+      await CreateGrid(quotes);
+    }
+  }
+
+  protected override async Task OnInitializedAsync()
+  {
+    CurrentUser.OnChange += StateHasChanged;
+
+    _quoteService = new QuoteService(QuoteRepository);
+    quotes = await _quoteService.GetAllAsync();
+
+    _propertyService = new PropertyService(PropertyRepository);
+    properties = await _propertyService.GetAllPropertiesAsync();
+
+    if (CurrentUser.User == UserEnum.Contractor)
+    {
+      quotes = quotes.Where(r => r.JobStatus != JobStatusEnum.PropertyManagerSection);
+    }
+
+    if (CurrentUser.User == UserEnum.Surveyor)
+    {
+      quotes = quotes.Where(r => r.JobStatus != JobStatusEnum.PropertyManagerSection || r.JobStatus !=
+      JobStatusEnum.ContractorManagerSection);
+    }
+
+    selectedProperty = properties.FirstOrDefault().PropertyName;
+
+  }
+
+  [Inject] IJSRuntime JSRuntime { get; set; }
+  protected async Task CreateGrid(IEnumerable<Quote> quote)
+  {
+    await JSRuntime.InvokeVoidAsync("jobScripts.createGrid", quote, "Quote");
+  }
+
+  private async Task CreateNewQuote()
+  {
+    var propertyMangers = await PropertyManagerRepository.GetAllPropertyManagersAsync();
+
+    newQuote.PropertyManager = propertyMangers.FirstOrDefault(pm => pm.FullName == "Bilal Manager");
+    newQuote.Property = properties.FirstOrDefault(p => p.PropertyName == selectedProperty);
+    await _quoteService.InsertNewQuoteAsync(newQuote);
+
+    newQuote = new Quote { };
+    StateHasChanged();
+    await CreateGrid(quotes);
+  }
+
+  public void Dispose()
+  {
+    CurrentUser.OnChange -= StateHasChanged;
+  }
+}

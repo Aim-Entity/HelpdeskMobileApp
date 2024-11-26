@@ -1,16 +1,16 @@
 self.assetsManifest = {
-  "version": "88SQ+M7e",
+  "version": "UK7+rhl3",
   "assets": [
     {
       "hash": "sha256-2lykAp+lTumGvas8pKseQaR7knYWNfX45Up9SfyKgo0=",
       "url": "HybridMobileProj.Client.styles.css"
     },
     {
-      "hash": "sha256-IYiGb0VsfV7AVFJyZib4SS8qoYFhqA/asOiZyGMbPgA=",
+      "hash": "sha256-RkDaiGUdIetXoeHm/kEw2apnYMi+JMll+05HDPH/9pE=",
       "url": "_framework/Application.pdb"
     },
     {
-      "hash": "sha256-1+w3YlnYFPI+tYxdTDRvqfyqEBmzE/gOTR+slZoxUD0=",
+      "hash": "sha256-LKFTbagZxDmbbPqGAx/YlmVshsK/E33h20FLnOrzqSI=",
       "url": "_framework/Application.wasm"
     },
     {
@@ -22,27 +22,27 @@ self.assetsManifest = {
       "url": "_framework/Azure.Identity.wasm"
     },
     {
-      "hash": "sha256-iDkvFSHA849SvhJ8KG7FgTHTa5LjTj4IBGdB2SP6zmM=",
+      "hash": "sha256-SOFQC6oo/MSoe9Kx4U9iYGkFNjqb9FK3lZ3tiNOVRhE=",
       "url": "_framework/Domain.pdb"
     },
     {
-      "hash": "sha256-cafDpqxhC8sS/DRsonOaIth8wJ19v9p6Ghi3MzIo9u4=",
+      "hash": "sha256-Z7eZghMjdZYhfCaXAxQNLoNg3CZe4eGvhysrLGDsr6c=",
       "url": "_framework/Domain.wasm"
     },
     {
-      "hash": "sha256-nkxz//i/UMpM/PiX3OOeyAcM7UMxD9L2BvertNjeXzM=",
+      "hash": "sha256-Eo0AkotVeA+T/rk+5VNXeUV6GatJdvH8BLap0kerjgw=",
       "url": "_framework/HybridMobileProj.Client.pdb"
     },
     {
-      "hash": "sha256-QjO3rS/D0sFMbbJ2gDP2VVKDtN6l3jfPbeNnW+rEWBQ=",
+      "hash": "sha256-NmjdkuWMFHF56XwKJ1ILM2zuhYOAiH7EeNjO6GD7GLY=",
       "url": "_framework/HybridMobileProj.Client.wasm"
     },
     {
-      "hash": "sha256-4Kr3kCnUgIbYtPNayR9S/sF+GmMZ4GsR3lbiMhETFpY=",
+      "hash": "sha256-cecI52XjFt2RnVgfwUyZpsUc0MticB4yrNSJ+Ylf5lA=",
       "url": "_framework/Infrastructure.pdb"
     },
     {
-      "hash": "sha256-SulDO+ZgS3uEzbRc9mp6w7spf4G63syRAYzDyNjf3vQ=",
+      "hash": "sha256-fJ+UG3pGxwTqKIdf02zje35csmi7WjT+D79j3/5tDdg=",
       "url": "_framework/Infrastructure.wasm"
     },
     {
@@ -254,11 +254,11 @@ self.assetsManifest = {
       "url": "_framework/SQLitePCLRaw.provider.e_sqlite3.wasm"
     },
     {
-      "hash": "sha256-DWOHyuvRa4M6A0rqysk79t1GO1yTobzEX/u4cdpRfEg=",
+      "hash": "sha256-O0skfivvrGYZyNdMmexbxyzrIlXzPqUqqmCXBShVm+k=",
       "url": "_framework/Shared.pdb"
     },
     {
-      "hash": "sha256-HPpFr/Ouw2hmdIB0LHh1W+YyUd30SP0CnchTynmJx5s=",
+      "hash": "sha256-RqNaLWFLbsZ8TiSGMGRjHoIXly5t0WwQ7hAjUvDfzto=",
       "url": "_framework/Shared.wasm"
     },
     {
@@ -970,7 +970,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-ac72/LX4W55wgA0Y0KcPu5lapw0DTRNxIoJK00w1w6U=",
+      "hash": "sha256-xqGWBrLeiTpoZkJo0VE6UV6qdgTQQ4GIeHnTh/XyJRE=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -1034,7 +1034,7 @@ self.assetsManifest = {
       "url": "css/app.css"
     },
     {
-      "hash": "sha256-6ntzUlS7D9ieNZUo4lm4T+KGs87MSYJ/x4adVU8NZfI=",
+      "hash": "sha256-dMUUb6FhQSQU9/pSZkPCGagfHOw9sOJtcmm3hSCAopU=",
       "url": "css/app.min.css"
     },
     {
@@ -1052,6 +1052,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-Ra4BrGpVyDN/Ek3C+pnW4RBmtSQx7uLwlhljj5uHrKM=",
       "url": "images/cross.svg"
+    },
+    {
+      "hash": "sha256-HJumIMEkHV9hob8777kYkhLfpOyBzUSHJh3bjYiFjpk=",
+      "url": "images/hamburger.svg"
     },
     {
       "hash": "sha256-A3+hB052ccyJAiVMz2ZHoMLuJqAzaZYMWu0y0VeiU1U=",
@@ -1090,7 +1094,7 @@ self.assetsManifest = {
       "url": "index.html"
     },
     {
-      "hash": "sha256-JvOB95gPZW7OMq12/aZq0LLjbNZr69W2j8s4rI6ATlU=",
+      "hash": "sha256-Vuw2sI2Ozi2jKTLttGgLIiVTLIn54gAMwyHRdrXzv1M=",
       "url": "js/job.js"
     },
     {

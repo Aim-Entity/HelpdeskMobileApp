@@ -1,6 +1,5 @@
 window.jobScripts = {
-  createGrid: function (jobs) {
-    console.log(jobs)
+  createGrid: function (jobs, jobType) {
       // Grid Options: Contains all of the Data Grid configurations
       let jobColumnDef = [
           {
@@ -14,7 +13,11 @@ window.jobScripts = {
                   btn.className += "bg-light-blue text-white w-full h-[50%] rounded-sm";
                   
                   let link = document.createElement("a");
-                  link.href = `/helpdesk/request/${params.data.guid}`
+                  if(jobType == "Request") {
+                    link.href = `/helpdesk/request/${params.data.guid}`
+                  } else if(jobType == "Quote") {
+                    link.href = `/helpdesk/quote/${params.data.guid}`
+                  }
 
                   container.append(link);
                   link.appendChild(btn);

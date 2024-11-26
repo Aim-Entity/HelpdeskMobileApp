@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BKWC2GcI3gw=",
+  "dgSpecHash": "JP7Di0m4UpA=",
   "success": true,
-  "projectFilePath": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.8\\microsoft.data.sqlite.core.8.0.8.nupkg.sha512",
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",

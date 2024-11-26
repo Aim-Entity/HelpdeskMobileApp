@@ -1,0 +1,153 @@
+﻿@page "/helpdesk/quote/{guid}"
+@using Application.Job
+@using Application.PluginInterfaces.Job
+@using Application.PluginInterfaces.User
+@using Application.User
+@using Domain.Entities.Job
+@using Domain.Entities.User
+@using Domain.Enums;
+@using HybridMobileProj.Client.Stores.Users
+@using System.Globalization
+
+@inject IQuoteRepository QuoteRepository
+@inject ISurveyRepository SurveyRepository
+@inject ISurveyorRepository SurveyorRepository
+
+<SetPageName CurrURL="@($"/helpdesk/quote/{Guid}")" />
+
+<div class="">
+  <QuoteHeader quote="quote" />
+  <ContactContainer quote="quote" />
+
+  <div class="flex flex-col gap-4 px-3 py-6 container-border">
+    <div class="flex flex-col">
+      <label class="text-12px text-primary-color">Details Of Repair</label>
+      <textarea
+        class="h-12 pt-2 @(quote.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="quote.DetailsOfRepair" disabled="@(quote.JobStatus != JobStatusEnum.PropertyManagerSection)">
+      </textarea>
+    </div>
+
+
+    <div class=" flex flex-col">
+      <label class="text-12px text-primary-color">Compliance</label>
+      <input type="text"
+        class="@(quote.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="quote.Compliance" disabled="@(quote.JobStatus != JobStatusEnum.PropertyManagerSection)">
+    </div>
+
+    <div class="flex flex-col">
+      <label class="text-12px text-primary-color">Job type</label>
+      <input type="text"
+        class="@(quote.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="quote.JobType" disabled="@(quote.JobStatus != JobStatusEnum.PropertyManagerSection)">
+    </div>
+
+    <div class="flex flex-col">
+      <label class="text-12px text-primary-color">Deadline</label>
+      <select class="@(quote.JobStatus == JobStatusEnum.PropertyManagerSection ? ActiveFields : InactiveFields)"
+        @bind="quote.Deadline" disabled="@(quote.JobStatus != JobStatusEnum.PropertyManagerSection)">
+        <option value=1>1 Day</option>
+        <option value=2>2 Days</option>
+        <option value=3>3 Days</option>
+        <option value=5>5 Days</option>
+      </select>
+    </div>
+
+    <button
+      class="@(quote.JobStatus == JobStatusEnum.PropertyManagerSection ? "bg-dark-blue" : InactiveFields) w-full h-10 text-12px mt-3"
+      @onclick="() => UpdateQuote()">Create Quote</button>
+  </div>
+
+  <div class="flex flex-col gap-4 px-3 py-6 container-border">
+    <label
+      class="custom-file-upload cursor-pointer @(CurrentUser.User == UserEnum.Surveyor && quote.JobStatus == JobStatusEnum.SurveyorManagerSection ? "block" : "hidden")">
+      <InputFile id="dropzone-file" class="hidden" OnChange="@OnInputFileChange"></InputFile>
+
+      <div class="file-field-border w-full h-36 flex justify-center items-center">
+        <div class="flex flex-col gap-2 justify-center items-center">
+          <img src="images/upload.svg" alt="Upload" class="w-8 h-8">
+          <h2 class="text-base font-semibold">Click To Upload</h2>
+        </div>
+      </div>
+    </label>
+
+    @if (quote.Surveyor != null)
+    {
+      @foreach (var photo in quote.Surveyor.Surveys)
+      {
+        <div class="">
+          <img src="@photo.Image" alt="Survey" class="object-cover w-full">
+          <div class="flex justify-between mt-1">
+            <p class="text-secondary-color text-10px">By @quote.Surveyor.FullName</p>
+            <p class="text-secondary-color text-10px">@photo.CreatedDate.ToString("f", new CultureInfo("en-GB"))</p>
+          </div>
+        </div>
+      }
+    }
+
+    <button
+      class="bg-success-green w-full h-10 text-12px mt-3 @(CurrentUser.User == UserEnum.Surveyor && quote.JobStatus == JobStatusEnum.SurveyorManagerSection ? "block" : "hidden")"
+      @onclick="() => CompleteSurvey()">Complete
+      Survey</button>
+  </div>
+</div>
+
+@code {
+  [Parameter]
+  public string? Guid { get; set; }
+
+  public QuoteService _quoteService;
+  public SurveyorService _surveyorService;
+  public Quote quote = new Quote { };
+
+  CurrentUserSingleton CurrentUser = CurrentUserSingleton.Instance();
+
+
+  public string ActiveFields = "generic-input-field w-full";
+  public string InactiveFields = "generic-input-field w-full border-dashed cursor-not-allowed bg-gray-100";
+
+  protected override async Task OnInitializedAsync()
+  {
+    _quoteService = new QuoteService(QuoteRepository);
+    _surveyorService = new SurveyorService(SurveyorRepository);
+
+    quote = await _quoteService.GetQuoteByGuidAsync(new Guid(Guid));
+  }
+
+  public async Task UpdateQuote()
+  {
+    quote.JobStatus = JobStatusEnum.ContractorManagerSection;
+    await _quoteService.UpdateQuoteAsync(quote);
+    StateHasChanged();
+  }
+
+  private const long MaxFileSize = 1024 * 1024 * 15;
+
+  private async Task OnInputFileChange(InputFileChangeEventArgs e)
+  {
+    var selectedFiles = e.GetMultipleFiles(30);
+    foreach (var file in selectedFiles)
+    {
+      var fullImage = await file.RequestImageFileAsync("image/jpeg", maxHeight: 1024, maxWidth: 1024);
+      await using var fullImageStream = fullImage.OpenReadStream(MaxFileSize);
+      using MemoryStream ms = new();
+      await fullImageStream.CopyToAsync(ms);
+
+      await _surveyorService.AddSurvey(quote.Surveyor, new Survey
+        {
+          Image =
+        $"data:image/jpeg;base64,{Convert.ToBase64String(ms.ToArray())}"
+        });
+    }
+
+    StateHasChanged();
+  }
+
+  private async Task CompleteSurvey()
+  {
+    quote.JobStatus = JobStatusEnum.Complete;
+    await _quoteService.UpdateQuoteAsync(quote);
+
+  }
+}

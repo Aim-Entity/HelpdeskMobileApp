@@ -113,7 +113,7 @@
   [Inject] IJSRuntime JSRuntime { get; set; }
   protected async Task CreateGrid(IEnumerable<Request> request)
   {
-    await JSRuntime.InvokeVoidAsync("jobScripts.createGrid", request);
+    await JSRuntime.InvokeVoidAsync("jobScripts.createGrid", request, "Request");
   }
 
   private async Task CreateNewRequest()

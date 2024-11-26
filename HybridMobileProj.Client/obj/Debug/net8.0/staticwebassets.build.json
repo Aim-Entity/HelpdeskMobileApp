@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HO2jMuhzNEhNtaR+rIPtCKfbEheGissq+1R2grrKGto=",
+  "Hash": "rWSjqdDHWJgEuL78FA+sfnpUpNAXKEqNNB+hUVGatCg=",
   "Source": "HybridMobileProj.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "7a39jvv1ho",
-      "Integrity": "IYiGb0VsfV7AVFJyZib4SS8qoYFhqA/asOiZyGMbPgA=",
+      "Fingerprint": "arr3hk9mmy",
+      "Integrity": "RkDaiGUdIetXoeHm/kEw2apnYMi+JMll+05HDPH/9pE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\bin\\Debug\\net8.0\\Application.pdb"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "rr76kz8og8",
-      "Integrity": "1+w3YlnYFPI+tYxdTDRvqfyqEBmzE/gOTR+slZoxUD0=",
+      "Fingerprint": "k826q1hwfv",
+      "Integrity": "LKFTbagZxDmbbPqGAx/YlmVshsK/E33h20FLnOrzqSI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\webcil\\Application.wasm"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "llar43fsco",
-      "Integrity": "ac72/LX4W55wgA0Y0KcPu5lapw0DTRNxIoJK00w1w6U=",
+      "Fingerprint": "eyb9pllij8",
+      "Integrity": "xqGWBrLeiTpoZkJo0VE6UV6qdgTQQ4GIeHnTh/XyJRE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -157,11 +157,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "o4myhx0bj1",
-      "Integrity": "iDkvFSHA849SvhJ8KG7FgTHTa5LjTj4IBGdB2SP6zmM=",
+      "Fingerprint": "kddw385n30",
+      "Integrity": "SOFQC6oo/MSoe9Kx4U9iYGkFNjqb9FK3lZ3tiNOVRhE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\bin\\Debug\\net8.0\\Domain.pdb"
+      "OriginalItemSpec": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\bin\\Debug\\net8.0\\Domain.pdb"
     },
     {
       "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Domain.wasm",
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "t5iu8q016q",
-      "Integrity": "cafDpqxhC8sS/DRsonOaIth8wJ19v9p6Ghi3MzIo9u4=",
+      "Fingerprint": "bzfe7i02s5",
+      "Integrity": "Z7eZghMjdZYhfCaXAxQNLoNg3CZe4eGvhysrLGDsr6c=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\webcil\\Domain.wasm"
@@ -367,8 +367,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "6yd8w9bnky",
-      "Integrity": "nkxz//i/UMpM/PiX3OOeyAcM7UMxD9L2BvertNjeXzM=",
+      "Fingerprint": "ijru0z6nzk",
+      "Integrity": "Eo0AkotVeA+T/rk+5VNXeUV6GatJdvH8BLap0kerjgw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\HybridMobileProj.Client.pdb"
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ulftvkv0cl",
-      "Integrity": "QjO3rS/D0sFMbbJ2gDP2VVKDtN6l3jfPbeNnW+rEWBQ=",
+      "Fingerprint": "em1g8lc7ts",
+      "Integrity": "NmjdkuWMFHF56XwKJ1ILM2zuhYOAiH7EeNjO6GD7GLY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\webcil\\HybridMobileProj.Client.wasm"
@@ -472,11 +472,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "oqa3wjb41q",
-      "Integrity": "4Kr3kCnUgIbYtPNayR9S/sF+GmMZ4GsR3lbiMhETFpY=",
+      "Fingerprint": "jrz27w1khw",
+      "Integrity": "cecI52XjFt2RnVgfwUyZpsUc0MticB4yrNSJ+Ylf5lA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Infrastructure\\bin\\Debug\\net8.0\\Infrastructure.pdb"
+      "OriginalItemSpec": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Infrastructure\\bin\\Debug\\net8.0\\Infrastructure.pdb"
     },
     {
       "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Infrastructure.wasm",
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "a3cylgfp5d",
-      "Integrity": "SulDO+ZgS3uEzbRc9mp6w7spf4G63syRAYzDyNjf3vQ=",
+      "Fingerprint": "0dbgjciwae",
+      "Integrity": "fJ+UG3pGxwTqKIdf02zje35csmi7WjT+D79j3/5tDdg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\webcil\\Infrastructure.wasm"
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "1n918prr0q",
-      "Integrity": "DWOHyuvRa4M6A0rqysk79t1GO1yTobzEX/u4cdpRfEg=",
+      "Fingerprint": "7lko1js9tb",
+      "Integrity": "O0skfivvrGYZyNdMmexbxyzrIlXzPqUqqmCXBShVm+k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Shared\\bin\\Debug\\net8.0\\Shared.pdb"
@@ -1606,8 +1606,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "8xjdcu9w2i",
-      "Integrity": "HPpFr/Ouw2hmdIB0LHh1W+YyUd30SP0CnchTynmJx5s=",
+      "Fingerprint": "u6prr0rps3",
+      "Integrity": "RqNaLWFLbsZ8TiSGMGRjHoIXly5t0WwQ7hAjUvDfzto=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\webcil\\Shared.wasm"
@@ -5603,7 +5603,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1n8di4wo0x-oqa3wjb41q.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1n8di4wo0x-jrz27w1khw.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -5617,14 +5617,14 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Infrastructure.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mb41q0dmfd",
-      "Integrity": "3on0dz67d9Wq4Xhm0vFFHZQHS/oWGz0roE/uWTPnpaQ=",
+      "Fingerprint": "4h7m9l1nrn",
+      "Integrity": "qEO80+3wMLX0yUm19gLa9/ONpM6nDkP3YcsA591v/OI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Infrastructure.pdb"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1sl2xvah9i-8xjdcu9w2i.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1sl2xvah9i-u6prr0rps3.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -5638,14 +5638,14 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0t1fnkk7nk",
-      "Integrity": "5P10WsjITUdG89RAv+PO6+KygG2ILQgsVpAJFvWmH+c=",
+      "Fingerprint": "0bgz84gp4g",
+      "Integrity": "tOpFuJ0ALvu2dcGBbvmAOnSKaD/t38wCUGY+Ioxp8pA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1vsfndswnm-rr76kz8og8.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1vsfndswnm-k826q1hwfv.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -5659,8 +5659,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Application.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qhxabkvts4",
-      "Integrity": "8kwtLi8lmBDrPgQ7ugT+fi99st54i3Muti/D5Xb5tQA=",
+      "Fingerprint": "lpu1xymwqk",
+      "Integrity": "R8UJHNND+3PtE0FabgOQZljXd+1Tq2ojjZtdxHFWCYE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Application.wasm"
@@ -6485,7 +6485,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Timer.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\6b81pshwsv-llar43fsco.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\6b81pshwsv-eyb9pllij8.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -6499,8 +6499,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jwsrtgep8y",
-      "Integrity": "E2j8Gl5Soxh3GVeMay1zmKXgW2qFUL78qUahlQuhIL4=",
+      "Fingerprint": "4amukavwo7",
+      "Integrity": "tEcQpCI8rsj6QY9h9lklbyN+h8iz2Ute579I3WCd4CQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7724,7 +7724,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\egl8wi0oyv-1n918prr0q.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\egl8wi0oyv-7lko1js9tb.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -7738,8 +7738,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7nhxuuah79",
-      "Integrity": "k817jVxUhU03MUrNp2g5JjCNkmPRVGOE+rTI6FlLi4E=",
+      "Fingerprint": "j163hgnvyc",
+      "Integrity": "qZ3pRSz/KQO+7d6pOsDTlKNXZL2URevss96yoN+2KAI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Shared.pdb"
@@ -8627,7 +8627,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\kw3klz9zbh-7a39jvv1ho.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\kw3klz9zbh-arr3hk9mmy.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -8641,8 +8641,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Application.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "e9uw5r4ahr",
-      "Integrity": "zm2x3Z6Zo3f0jOG+f2FhrzGz3+XGJjyAWQZ1PbT8aF8=",
+      "Fingerprint": "tbv7tkm74n",
+      "Integrity": "WcfQ6o/e1Nx3zE6QNi+7YqxOL/m1MuMWuLpiCm9jeB4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Application.pdb"
@@ -9425,7 +9425,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SQLitePCLRaw.core.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\q5svm08enj-o4myhx0bj1.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\q5svm08enj-kddw385n30.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -9439,8 +9439,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Domain.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "un9osmd6xy",
-      "Integrity": "6koLideob8YfT9SAtAvV2KpuVM3mRkARGkLPlDGDlaY=",
+      "Fingerprint": "jvqkxwe6yz",
+      "Integrity": "8Zl4c93nbNCIvoA9LEHBG3fgnWWoLSVoy5pbvd37/Gw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Domain.pdb"
@@ -9950,7 +9950,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Memory.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\ufy71eoi55-6yd8w9bnky.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\ufy71eoi55-ijru0z6nzk.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -9964,8 +9964,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HybridMobileProj.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5mnn77uu18",
-      "Integrity": "s+XgwddB8/nEDJwyx02sFCkhLX8uTV9bM095XtUkzcg=",
+      "Fingerprint": "a7twp1zavb",
+      "Integrity": "KpcERv68Y22jJkgu3AJWTOEh1GANy6o+ljHxaS+fugY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HybridMobileProj.Client.pdb"
@@ -10139,7 +10139,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\w2c55z9tnn-t5iu8q016q.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\w2c55z9tnn-bzfe7i02s5.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -10153,8 +10153,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Domain.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4blf0rflml",
-      "Integrity": "oJUhQg8JJ8RC7oLVBwn1VIgZCi5b3wjmiL9Q+LGU7zs=",
+      "Fingerprint": "7wqzt9i17r",
+      "Integrity": "59OQo9v+r1sH2bmL7BIlzDyp7k2u6Zx4k/n1mUIkoeM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Domain.wasm"
@@ -10181,7 +10181,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\wa6rbnpnaj-ulftvkv0cl.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\wa6rbnpnaj-em1g8lc7ts.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -10195,8 +10195,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HybridMobileProj.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "p6i988uv25",
-      "Integrity": "UYwshsZ0FrYOUZtBWJWPmv/e+xajxsOF6M3OeYDA0Zo=",
+      "Fingerprint": "0e32ciukl7",
+      "Integrity": "qHE2O+rm7PRsWid1Z9ydT+HjuVML0RcRphr0ZKnK3jA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HybridMobileProj.Client.wasm"
@@ -10706,7 +10706,7 @@
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.SecureString.wasm"
     },
     {
-      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\zhlfk3db90-a3cylgfp5d.gz",
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\zhlfk3db90-0dbgjciwae.gz",
       "SourceId": "HybridMobileProj.Client",
       "SourceType": "Computed",
       "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -10720,8 +10720,8 @@
       "RelatedAsset": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Infrastructure.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "a0evoiopme",
-      "Integrity": "VkeHXYuMDCrmy/AXWaWE90C6N/5ba/YWLLRborvfDtc=",
+      "Fingerprint": "bn9fimq2dp",
+      "Integrity": "aZc4VIHdqH6KsqY32wV09yATNkMxkZItWNECZor8r28=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Infrastructure.wasm"
@@ -10825,8 +10825,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "2pl4oi01bf",
-      "Integrity": "KtlAIRqCP3HEKF07S+fpPtOHZmwWylyJMiq1PsffDC4=",
+      "Fingerprint": "fc7x2nj7uf",
+      "Integrity": "b5Eb5nXcgLtfEho7QDol1Sx2NDWvwGmwenrcXvonbfQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\service-worker\\service-worker-assets.js.build"
@@ -10846,8 +10846,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "bixipt9jjq",
-      "Integrity": "Ixd0+ZjmuDZd/vq5C5FCIW8xCXc8UW17XaF1ohezkUU=",
+      "Fingerprint": "ljw3t6xjhx",
+      "Integrity": "f1OxvcRUzUuAcNoFnV3+5npF8N84ZmnyKuZMVUBrjOk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\service-worker.js"
@@ -10888,8 +10888,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eau3800nhx",
-      "Integrity": "6ntzUlS7D9ieNZUo4lm4T+KGs87MSYJ/x4adVU8NZfI=",
+      "Fingerprint": "sem82c792c",
+      "Integrity": "dMUUb6FhQSQU9/pSZkPCGagfHOw9sOJtcmm3hSCAopU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.min.css"
@@ -10977,6 +10977,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cross.svg"
+    },
+    {
+      "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\hamburger.svg",
+      "SourceId": "HybridMobileProj.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/hamburger#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c0xgousqsc",
+      "Integrity": "HJumIMEkHV9hob8777kYkhLfpOyBzUSHJh3bjYiFjpk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hamburger.svg"
     },
     {
       "Identity": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\jobs.svg",
@@ -11182,8 +11203,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "evrb328sgr",
-      "Integrity": "JvOB95gPZW7OMq12/aZq0LLjbNZr69W2j8s4rI6ATlU=",
+      "Fingerprint": "uj2bq29sbg",
+      "Integrity": "Vuw2sI2Ozi2jKTLttGgLIiVTLIn54gAMwyHRdrXzv1M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\job.js"
@@ -11264,7 +11285,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20192"
+          "Value": "20944"
         },
         {
           "Name": "Content-Type",
@@ -11272,11 +11293,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IYiGb0VsfV7AVFJyZib4SS8qoYFhqA/asOiZyGMbPgA=\""
+          "Value": "\"RkDaiGUdIetXoeHm/kEw2apnYMi+JMll+05HDPH/9pE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:25 GMT"
+          "Value": "Tue, 26 Nov 2024 13:50:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11286,18 +11307,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IYiGb0VsfV7AVFJyZib4SS8qoYFhqA/asOiZyGMbPgA="
+          "Value": "sha256-RkDaiGUdIetXoeHm/kEw2apnYMi+JMll+05HDPH/9pE="
         }
       ]
     },
     {
       "Route": "_framework/Application.pdb",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\kw3klz9zbh-7a39jvv1ho.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\kw3klz9zbh-arr3hk9mmy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000088794175"
+          "Quality": "0.000086737792"
         }
       ],
       "ResponseHeaders": [
@@ -11307,15 +11328,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11261"
+          "Value": "11528"
         },
         {
           "Name": "ETag",
-          "Value": "\"zm2x3Z6Zo3f0jOG+f2FhrzGz3+XGJjyAWQZ1PbT8aF8=\""
+          "Value": "\"WcfQ6o/e1Nx3zE6QNi+7YqxOL/m1MuMWuLpiCm9jeB4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:25 GMT"
+          "Value": "Mon, 25 Nov 2024 16:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11335,19 +11356,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IYiGb0VsfV7AVFJyZib4SS8qoYFhqA/asOiZyGMbPgA=\""
+          "Value": "W/\"RkDaiGUdIetXoeHm/kEw2apnYMi+JMll+05HDPH/9pE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IYiGb0VsfV7AVFJyZib4SS8qoYFhqA/asOiZyGMbPgA="
+          "Value": "sha256-RkDaiGUdIetXoeHm/kEw2apnYMi+JMll+05HDPH/9pE="
         }
       ]
     },
     {
       "Route": "_framework/Application.pdb.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\kw3klz9zbh-7a39jvv1ho.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\kw3klz9zbh-arr3hk9mmy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11356,7 +11377,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11261"
+          "Value": "11528"
         },
         {
           "Name": "Content-Type",
@@ -11364,11 +11385,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zm2x3Z6Zo3f0jOG+f2FhrzGz3+XGJjyAWQZ1PbT8aF8=\""
+          "Value": "\"WcfQ6o/e1Nx3zE6QNi+7YqxOL/m1MuMWuLpiCm9jeB4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:25 GMT"
+          "Value": "Mon, 25 Nov 2024 16:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11386,7 +11407,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zm2x3Z6Zo3f0jOG+f2FhrzGz3+XGJjyAWQZ1PbT8aF8="
+          "Value": "sha256-WcfQ6o/e1Nx3zE6QNi+7YqxOL/m1MuMWuLpiCm9jeB4="
         }
       ]
     },
@@ -11401,7 +11422,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25877"
+          "Value": "29461"
         },
         {
           "Name": "Content-Type",
@@ -11409,11 +11430,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1+w3YlnYFPI+tYxdTDRvqfyqEBmzE/gOTR+slZoxUD0=\""
+          "Value": "\"LKFTbagZxDmbbPqGAx/YlmVshsK/E33h20FLnOrzqSI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Tue, 26 Nov 2024 13:50:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11423,18 +11444,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1+w3YlnYFPI+tYxdTDRvqfyqEBmzE/gOTR+slZoxUD0="
+          "Value": "sha256-LKFTbagZxDmbbPqGAx/YlmVshsK/E33h20FLnOrzqSI="
         }
       ]
     },
     {
       "Route": "_framework/Application.wasm",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1vsfndswnm-rr76kz8og8.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1vsfndswnm-k826q1hwfv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000098386462"
+          "Quality": "0.000088183422"
         }
       ],
       "ResponseHeaders": [
@@ -11444,15 +11465,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10163"
+          "Value": "11339"
         },
         {
           "Name": "ETag",
-          "Value": "\"8kwtLi8lmBDrPgQ7ugT+fi99st54i3Muti/D5Xb5tQA=\""
+          "Value": "\"R8UJHNND+3PtE0FabgOQZljXd+1Tq2ojjZtdxHFWCYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Mon, 25 Nov 2024 16:52:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11472,19 +11493,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1+w3YlnYFPI+tYxdTDRvqfyqEBmzE/gOTR+slZoxUD0=\""
+          "Value": "W/\"LKFTbagZxDmbbPqGAx/YlmVshsK/E33h20FLnOrzqSI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1+w3YlnYFPI+tYxdTDRvqfyqEBmzE/gOTR+slZoxUD0="
+          "Value": "sha256-LKFTbagZxDmbbPqGAx/YlmVshsK/E33h20FLnOrzqSI="
         }
       ]
     },
     {
       "Route": "_framework/Application.wasm.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1vsfndswnm-rr76kz8og8.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1vsfndswnm-k826q1hwfv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11493,7 +11514,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10163"
+          "Value": "11339"
         },
         {
           "Name": "Content-Type",
@@ -11501,11 +11522,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8kwtLi8lmBDrPgQ7ugT+fi99st54i3Muti/D5Xb5tQA=\""
+          "Value": "\"R8UJHNND+3PtE0FabgOQZljXd+1Tq2ojjZtdxHFWCYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Mon, 25 Nov 2024 16:52:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11523,7 +11544,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8kwtLi8lmBDrPgQ7ugT+fi99st54i3Muti/D5Xb5tQA="
+          "Value": "sha256-R8UJHNND+3PtE0FabgOQZljXd+1Tq2ojjZtdxHFWCYE="
         }
       ]
     },
@@ -11820,11 +11841,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ac72/LX4W55wgA0Y0KcPu5lapw0DTRNxIoJK00w1w6U=\""
+          "Value": "\"xqGWBrLeiTpoZkJo0VE6UV6qdgTQQ4GIeHnTh/XyJRE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:34:55 GMT"
+          "Value": "Tue, 26 Nov 2024 13:50:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11834,18 +11855,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ac72/LX4W55wgA0Y0KcPu5lapw0DTRNxIoJK00w1w6U="
+          "Value": "sha256-xqGWBrLeiTpoZkJo0VE6UV6qdgTQQ4GIeHnTh/XyJRE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\6b81pshwsv-llar43fsco.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\6b81pshwsv-eyb9pllij8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000092429984"
+          "Quality": "0.000092481273"
         }
       ],
       "ResponseHeaders": [
@@ -11855,15 +11876,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10818"
+          "Value": "10812"
         },
         {
           "Name": "ETag",
-          "Value": "\"E2j8Gl5Soxh3GVeMay1zmKXgW2qFUL78qUahlQuhIL4=\""
+          "Value": "\"tEcQpCI8rsj6QY9h9lklbyN+h8iz2Ute579I3WCd4CQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:42 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11883,19 +11904,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ac72/LX4W55wgA0Y0KcPu5lapw0DTRNxIoJK00w1w6U=\""
+          "Value": "W/\"xqGWBrLeiTpoZkJo0VE6UV6qdgTQQ4GIeHnTh/XyJRE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ac72/LX4W55wgA0Y0KcPu5lapw0DTRNxIoJK00w1w6U="
+          "Value": "sha256-xqGWBrLeiTpoZkJo0VE6UV6qdgTQQ4GIeHnTh/XyJRE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\6b81pshwsv-llar43fsco.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\6b81pshwsv-eyb9pllij8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11904,7 +11925,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10818"
+          "Value": "10812"
         },
         {
           "Name": "Content-Type",
@@ -11912,11 +11933,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E2j8Gl5Soxh3GVeMay1zmKXgW2qFUL78qUahlQuhIL4=\""
+          "Value": "\"tEcQpCI8rsj6QY9h9lklbyN+h8iz2Ute579I3WCd4CQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:42 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11934,7 +11955,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-E2j8Gl5Soxh3GVeMay1zmKXgW2qFUL78qUahlQuhIL4="
+          "Value": "sha256-tEcQpCI8rsj6QY9h9lklbyN+h8iz2Ute579I3WCd4CQ="
         }
       ]
     },
@@ -12094,11 +12115,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iDkvFSHA849SvhJ8KG7FgTHTa5LjTj4IBGdB2SP6zmM=\""
+          "Value": "\"SOFQC6oo/MSoe9Kx4U9iYGkFNjqb9FK3lZ3tiNOVRhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:22 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12108,18 +12129,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iDkvFSHA849SvhJ8KG7FgTHTa5LjTj4IBGdB2SP6zmM="
+          "Value": "sha256-SOFQC6oo/MSoe9Kx4U9iYGkFNjqb9FK3lZ3tiNOVRhE="
         }
       ]
     },
     {
       "Route": "_framework/Domain.pdb",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\q5svm08enj-o4myhx0bj1.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\q5svm08enj-kddw385n30.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000099226037"
+          "Quality": "0.000099196508"
         }
       ],
       "ResponseHeaders": [
@@ -12129,15 +12150,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10077"
+          "Value": "10080"
         },
         {
           "Name": "ETag",
-          "Value": "\"6koLideob8YfT9SAtAvV2KpuVM3mRkARGkLPlDGDlaY=\""
+          "Value": "\"8Zl4c93nbNCIvoA9LEHBG3fgnWWoLSVoy5pbvd37/Gw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:22 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12157,19 +12178,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"iDkvFSHA849SvhJ8KG7FgTHTa5LjTj4IBGdB2SP6zmM=\""
+          "Value": "W/\"SOFQC6oo/MSoe9Kx4U9iYGkFNjqb9FK3lZ3tiNOVRhE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iDkvFSHA849SvhJ8KG7FgTHTa5LjTj4IBGdB2SP6zmM="
+          "Value": "sha256-SOFQC6oo/MSoe9Kx4U9iYGkFNjqb9FK3lZ3tiNOVRhE="
         }
       ]
     },
     {
       "Route": "_framework/Domain.pdb.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\q5svm08enj-o4myhx0bj1.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\q5svm08enj-kddw385n30.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12178,7 +12199,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10077"
+          "Value": "10080"
         },
         {
           "Name": "Content-Type",
@@ -12186,11 +12207,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6koLideob8YfT9SAtAvV2KpuVM3mRkARGkLPlDGDlaY=\""
+          "Value": "\"8Zl4c93nbNCIvoA9LEHBG3fgnWWoLSVoy5pbvd37/Gw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:22 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12208,7 +12229,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6koLideob8YfT9SAtAvV2KpuVM3mRkARGkLPlDGDlaY="
+          "Value": "sha256-8Zl4c93nbNCIvoA9LEHBG3fgnWWoLSVoy5pbvd37/Gw="
         }
       ]
     },
@@ -12231,11 +12252,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cafDpqxhC8sS/DRsonOaIth8wJ19v9p6Ghi3MzIo9u4=\""
+          "Value": "\"Z7eZghMjdZYhfCaXAxQNLoNg3CZe4eGvhysrLGDsr6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12245,18 +12266,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cafDpqxhC8sS/DRsonOaIth8wJ19v9p6Ghi3MzIo9u4="
+          "Value": "sha256-Z7eZghMjdZYhfCaXAxQNLoNg3CZe4eGvhysrLGDsr6c="
         }
       ]
     },
     {
       "Route": "_framework/Domain.wasm",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\w2c55z9tnn-t5iu8q016q.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\w2c55z9tnn-bzfe7i02s5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000144969556"
+          "Quality": "0.000144927536"
         }
       ],
       "ResponseHeaders": [
@@ -12266,15 +12287,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6897"
+          "Value": "6899"
         },
         {
           "Name": "ETag",
-          "Value": "\"oJUhQg8JJ8RC7oLVBwn1VIgZCi5b3wjmiL9Q+LGU7zs=\""
+          "Value": "\"59OQo9v+r1sH2bmL7BIlzDyp7k2u6Zx4k/n1mUIkoeM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12294,19 +12315,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cafDpqxhC8sS/DRsonOaIth8wJ19v9p6Ghi3MzIo9u4=\""
+          "Value": "W/\"Z7eZghMjdZYhfCaXAxQNLoNg3CZe4eGvhysrLGDsr6c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cafDpqxhC8sS/DRsonOaIth8wJ19v9p6Ghi3MzIo9u4="
+          "Value": "sha256-Z7eZghMjdZYhfCaXAxQNLoNg3CZe4eGvhysrLGDsr6c="
         }
       ]
     },
     {
       "Route": "_framework/Domain.wasm.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\w2c55z9tnn-t5iu8q016q.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\w2c55z9tnn-bzfe7i02s5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12315,7 +12336,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6897"
+          "Value": "6899"
         },
         {
           "Name": "Content-Type",
@@ -12323,11 +12344,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oJUhQg8JJ8RC7oLVBwn1VIgZCi5b3wjmiL9Q+LGU7zs=\""
+          "Value": "\"59OQo9v+r1sH2bmL7BIlzDyp7k2u6Zx4k/n1mUIkoeM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12345,7 +12366,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oJUhQg8JJ8RC7oLVBwn1VIgZCi5b3wjmiL9Q+LGU7zs="
+          "Value": "sha256-59OQo9v+r1sH2bmL7BIlzDyp7k2u6Zx4k/n1mUIkoeM="
         }
       ]
     },
@@ -13456,7 +13477,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53700"
+          "Value": "68524"
         },
         {
           "Name": "Content-Type",
@@ -13464,11 +13485,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nkxz//i/UMpM/PiX3OOeyAcM7UMxD9L2BvertNjeXzM=\""
+          "Value": "\"Eo0AkotVeA+T/rk+5VNXeUV6GatJdvH8BLap0kerjgw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:39 GMT"
+          "Value": "Tue, 26 Nov 2024 13:50:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13478,18 +13499,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nkxz//i/UMpM/PiX3OOeyAcM7UMxD9L2BvertNjeXzM="
+          "Value": "sha256-Eo0AkotVeA+T/rk+5VNXeUV6GatJdvH8BLap0kerjgw="
         }
       ]
     },
     {
       "Route": "_framework/HybridMobileProj.Client.pdb",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\ufy71eoi55-6yd8w9bnky.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\ufy71eoi55-ijru0z6nzk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000024623264"
+          "Quality": "0.000019203810"
         }
       ],
       "ResponseHeaders": [
@@ -13499,15 +13520,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40611"
+          "Value": "52072"
         },
         {
           "Name": "ETag",
-          "Value": "\"s+XgwddB8/nEDJwyx02sFCkhLX8uTV9bM095XtUkzcg=\""
+          "Value": "\"KpcERv68Y22jJkgu3AJWTOEh1GANy6o+ljHxaS+fugY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:39 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13527,19 +13548,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nkxz//i/UMpM/PiX3OOeyAcM7UMxD9L2BvertNjeXzM=\""
+          "Value": "W/\"Eo0AkotVeA+T/rk+5VNXeUV6GatJdvH8BLap0kerjgw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nkxz//i/UMpM/PiX3OOeyAcM7UMxD9L2BvertNjeXzM="
+          "Value": "sha256-Eo0AkotVeA+T/rk+5VNXeUV6GatJdvH8BLap0kerjgw="
         }
       ]
     },
     {
       "Route": "_framework/HybridMobileProj.Client.pdb.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\ufy71eoi55-6yd8w9bnky.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\ufy71eoi55-ijru0z6nzk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13548,7 +13569,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40611"
+          "Value": "52072"
         },
         {
           "Name": "Content-Type",
@@ -13556,11 +13577,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s+XgwddB8/nEDJwyx02sFCkhLX8uTV9bM095XtUkzcg=\""
+          "Value": "\"KpcERv68Y22jJkgu3AJWTOEh1GANy6o+ljHxaS+fugY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:39 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13578,7 +13599,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s+XgwddB8/nEDJwyx02sFCkhLX8uTV9bM095XtUkzcg="
+          "Value": "sha256-KpcERv68Y22jJkgu3AJWTOEh1GANy6o+ljHxaS+fugY="
         }
       ]
     },
@@ -13593,7 +13614,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "71445"
+          "Value": "88853"
         },
         {
           "Name": "Content-Type",
@@ -13601,11 +13622,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QjO3rS/D0sFMbbJ2gDP2VVKDtN6l3jfPbeNnW+rEWBQ=\""
+          "Value": "\"NmjdkuWMFHF56XwKJ1ILM2zuhYOAiH7EeNjO6GD7GLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Tue, 26 Nov 2024 13:50:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13615,18 +13636,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QjO3rS/D0sFMbbJ2gDP2VVKDtN6l3jfPbeNnW+rEWBQ="
+          "Value": "sha256-NmjdkuWMFHF56XwKJ1ILM2zuhYOAiH7EeNjO6GD7GLY="
         }
       ]
     },
     {
       "Route": "_framework/HybridMobileProj.Client.wasm",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\wa6rbnpnaj-ulftvkv0cl.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\wa6rbnpnaj-em1g8lc7ts.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000038928683"
+          "Quality": "0.000032519268"
         }
       ],
       "ResponseHeaders": [
@@ -13636,15 +13657,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25687"
+          "Value": "30750"
         },
         {
           "Name": "ETag",
-          "Value": "\"UYwshsZ0FrYOUZtBWJWPmv/e+xajxsOF6M3OeYDA0Zo=\""
+          "Value": "\"qHE2O+rm7PRsWid1Z9ydT+HjuVML0RcRphr0ZKnK3jA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13664,19 +13685,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QjO3rS/D0sFMbbJ2gDP2VVKDtN6l3jfPbeNnW+rEWBQ=\""
+          "Value": "W/\"NmjdkuWMFHF56XwKJ1ILM2zuhYOAiH7EeNjO6GD7GLY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QjO3rS/D0sFMbbJ2gDP2VVKDtN6l3jfPbeNnW+rEWBQ="
+          "Value": "sha256-NmjdkuWMFHF56XwKJ1ILM2zuhYOAiH7EeNjO6GD7GLY="
         }
       ]
     },
     {
       "Route": "_framework/HybridMobileProj.Client.wasm.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\wa6rbnpnaj-ulftvkv0cl.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\wa6rbnpnaj-em1g8lc7ts.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13685,7 +13706,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25687"
+          "Value": "30750"
         },
         {
           "Name": "Content-Type",
@@ -13693,11 +13714,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UYwshsZ0FrYOUZtBWJWPmv/e+xajxsOF6M3OeYDA0Zo=\""
+          "Value": "\"qHE2O+rm7PRsWid1Z9ydT+HjuVML0RcRphr0ZKnK3jA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13715,7 +13736,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UYwshsZ0FrYOUZtBWJWPmv/e+xajxsOF6M3OeYDA0Zo="
+          "Value": "sha256-qHE2O+rm7PRsWid1Z9ydT+HjuVML0RcRphr0ZKnK3jA="
         }
       ]
     },
@@ -14141,7 +14162,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16460"
+          "Value": "16916"
         },
         {
           "Name": "Content-Type",
@@ -14149,11 +14170,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4Kr3kCnUgIbYtPNayR9S/sF+GmMZ4GsR3lbiMhETFpY=\""
+          "Value": "\"cecI52XjFt2RnVgfwUyZpsUc0MticB4yrNSJ+Ylf5lA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:30 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14163,18 +14184,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4Kr3kCnUgIbYtPNayR9S/sF+GmMZ4GsR3lbiMhETFpY="
+          "Value": "sha256-cecI52XjFt2RnVgfwUyZpsUc0MticB4yrNSJ+Ylf5lA="
         }
       ]
     },
     {
       "Route": "_framework/Infrastructure.pdb",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1n8di4wo0x-oqa3wjb41q.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1n8di4wo0x-jrz27w1khw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000108742932"
+          "Quality": "0.000106700811"
         }
       ],
       "ResponseHeaders": [
@@ -14184,15 +14205,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9195"
+          "Value": "9371"
         },
         {
           "Name": "ETag",
-          "Value": "\"3on0dz67d9Wq4Xhm0vFFHZQHS/oWGz0roE/uWTPnpaQ=\""
+          "Value": "\"qEO80+3wMLX0yUm19gLa9/ONpM6nDkP3YcsA591v/OI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:30 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14212,19 +14233,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4Kr3kCnUgIbYtPNayR9S/sF+GmMZ4GsR3lbiMhETFpY=\""
+          "Value": "W/\"cecI52XjFt2RnVgfwUyZpsUc0MticB4yrNSJ+Ylf5lA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4Kr3kCnUgIbYtPNayR9S/sF+GmMZ4GsR3lbiMhETFpY="
+          "Value": "sha256-cecI52XjFt2RnVgfwUyZpsUc0MticB4yrNSJ+Ylf5lA="
         }
       ]
     },
     {
       "Route": "_framework/Infrastructure.pdb.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1n8di4wo0x-oqa3wjb41q.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1n8di4wo0x-jrz27w1khw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14233,7 +14254,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9195"
+          "Value": "9371"
         },
         {
           "Name": "Content-Type",
@@ -14241,11 +14262,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3on0dz67d9Wq4Xhm0vFFHZQHS/oWGz0roE/uWTPnpaQ=\""
+          "Value": "\"qEO80+3wMLX0yUm19gLa9/ONpM6nDkP3YcsA591v/OI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:30 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14263,7 +14284,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3on0dz67d9Wq4Xhm0vFFHZQHS/oWGz0roE/uWTPnpaQ="
+          "Value": "sha256-qEO80+3wMLX0yUm19gLa9/ONpM6nDkP3YcsA591v/OI="
         }
       ]
     },
@@ -14278,7 +14299,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17173"
+          "Value": "19221"
         },
         {
           "Name": "Content-Type",
@@ -14286,11 +14307,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SulDO+ZgS3uEzbRc9mp6w7spf4G63syRAYzDyNjf3vQ=\""
+          "Value": "\"fJ+UG3pGxwTqKIdf02zje35csmi7WjT+D79j3/5tDdg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14300,18 +14321,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SulDO+ZgS3uEzbRc9mp6w7spf4G63syRAYzDyNjf3vQ="
+          "Value": "sha256-fJ+UG3pGxwTqKIdf02zje35csmi7WjT+D79j3/5tDdg="
         }
       ]
     },
     {
       "Route": "_framework/Infrastructure.wasm",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\zhlfk3db90-a3cylgfp5d.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\zhlfk3db90-0dbgjciwae.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000149009090"
+          "Quality": "0.000133743480"
         }
       ],
       "ResponseHeaders": [
@@ -14321,15 +14342,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6710"
+          "Value": "7476"
         },
         {
           "Name": "ETag",
-          "Value": "\"VkeHXYuMDCrmy/AXWaWE90C6N/5ba/YWLLRborvfDtc=\""
+          "Value": "\"aZc4VIHdqH6KsqY32wV09yATNkMxkZItWNECZor8r28=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14349,19 +14370,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SulDO+ZgS3uEzbRc9mp6w7spf4G63syRAYzDyNjf3vQ=\""
+          "Value": "W/\"fJ+UG3pGxwTqKIdf02zje35csmi7WjT+D79j3/5tDdg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SulDO+ZgS3uEzbRc9mp6w7spf4G63syRAYzDyNjf3vQ="
+          "Value": "sha256-fJ+UG3pGxwTqKIdf02zje35csmi7WjT+D79j3/5tDdg="
         }
       ]
     },
     {
       "Route": "_framework/Infrastructure.wasm.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\zhlfk3db90-a3cylgfp5d.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\zhlfk3db90-0dbgjciwae.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14370,7 +14391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6710"
+          "Value": "7476"
         },
         {
           "Name": "Content-Type",
@@ -14378,11 +14399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VkeHXYuMDCrmy/AXWaWE90C6N/5ba/YWLLRborvfDtc=\""
+          "Value": "\"aZc4VIHdqH6KsqY32wV09yATNkMxkZItWNECZor8r28=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:40 GMT"
+          "Value": "Sun, 24 Nov 2024 20:31:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14400,7 +14421,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VkeHXYuMDCrmy/AXWaWE90C6N/5ba/YWLLRborvfDtc="
+          "Value": "sha256-aZc4VIHdqH6KsqY32wV09yATNkMxkZItWNECZor8r28="
         }
       ]
     },
@@ -21410,11 +21431,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DWOHyuvRa4M6A0rqysk79t1GO1yTobzEX/u4cdpRfEg=\""
+          "Value": "\"O0skfivvrGYZyNdMmexbxyzrIlXzPqUqqmCXBShVm+k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:52:20 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21424,18 +21445,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DWOHyuvRa4M6A0rqysk79t1GO1yTobzEX/u4cdpRfEg="
+          "Value": "sha256-O0skfivvrGYZyNdMmexbxyzrIlXzPqUqqmCXBShVm+k="
         }
       ]
     },
     {
       "Route": "_framework/Shared.pdb",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\egl8wi0oyv-1n918prr0q.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\egl8wi0oyv-7lko1js9tb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000162127108"
+          "Quality": "0.000162153397"
         }
       ],
       "ResponseHeaders": [
@@ -21445,15 +21466,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6167"
+          "Value": "6166"
         },
         {
           "Name": "ETag",
-          "Value": "\"k817jVxUhU03MUrNp2g5JjCNkmPRVGOE+rTI6FlLi4E=\""
+          "Value": "\"qZ3pRSz/KQO+7d6pOsDTlKNXZL2URevss96yoN+2KAI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:52:20 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21473,19 +21494,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DWOHyuvRa4M6A0rqysk79t1GO1yTobzEX/u4cdpRfEg=\""
+          "Value": "W/\"O0skfivvrGYZyNdMmexbxyzrIlXzPqUqqmCXBShVm+k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DWOHyuvRa4M6A0rqysk79t1GO1yTobzEX/u4cdpRfEg="
+          "Value": "sha256-O0skfivvrGYZyNdMmexbxyzrIlXzPqUqqmCXBShVm+k="
         }
       ]
     },
     {
       "Route": "_framework/Shared.pdb.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\egl8wi0oyv-1n918prr0q.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\egl8wi0oyv-7lko1js9tb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21494,7 +21515,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6167"
+          "Value": "6166"
         },
         {
           "Name": "Content-Type",
@@ -21502,11 +21523,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k817jVxUhU03MUrNp2g5JjCNkmPRVGOE+rTI6FlLi4E=\""
+          "Value": "\"qZ3pRSz/KQO+7d6pOsDTlKNXZL2URevss96yoN+2KAI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:52:20 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21524,7 +21545,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k817jVxUhU03MUrNp2g5JjCNkmPRVGOE+rTI6FlLi4E="
+          "Value": "sha256-qZ3pRSz/KQO+7d6pOsDTlKNXZL2URevss96yoN+2KAI="
         }
       ]
     },
@@ -21547,11 +21568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HPpFr/Ouw2hmdIB0LHh1W+YyUd30SP0CnchTynmJx5s=\""
+          "Value": "\"RqNaLWFLbsZ8TiSGMGRjHoIXly5t0WwQ7hAjUvDfzto=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:52:28 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21561,18 +21582,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HPpFr/Ouw2hmdIB0LHh1W+YyUd30SP0CnchTynmJx5s="
+          "Value": "sha256-RqNaLWFLbsZ8TiSGMGRjHoIXly5t0WwQ7hAjUvDfzto="
         }
       ]
     },
     {
       "Route": "_framework/Shared.wasm",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1sl2xvah9i-8xjdcu9w2i.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1sl2xvah9i-u6prr0rps3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000718390805"
+          "Quality": "0.000714285714"
         }
       ],
       "ResponseHeaders": [
@@ -21582,15 +21603,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1391"
+          "Value": "1399"
         },
         {
           "Name": "ETag",
-          "Value": "\"5P10WsjITUdG89RAv+PO6+KygG2ILQgsVpAJFvWmH+c=\""
+          "Value": "\"tOpFuJ0ALvu2dcGBbvmAOnSKaD/t38wCUGY+Ioxp8pA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:52:28 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21610,19 +21631,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HPpFr/Ouw2hmdIB0LHh1W+YyUd30SP0CnchTynmJx5s=\""
+          "Value": "W/\"RqNaLWFLbsZ8TiSGMGRjHoIXly5t0WwQ7hAjUvDfzto=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HPpFr/Ouw2hmdIB0LHh1W+YyUd30SP0CnchTynmJx5s="
+          "Value": "sha256-RqNaLWFLbsZ8TiSGMGRjHoIXly5t0WwQ7hAjUvDfzto="
         }
       ]
     },
     {
       "Route": "_framework/Shared.wasm.gz",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1sl2xvah9i-8xjdcu9w2i.gz",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\Debug\\net8.0\\compressed\\1sl2xvah9i-u6prr0rps3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21631,7 +21652,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1391"
+          "Value": "1399"
         },
         {
           "Name": "Content-Type",
@@ -21639,11 +21660,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5P10WsjITUdG89RAv+PO6+KygG2ILQgsVpAJFvWmH+c=\""
+          "Value": "\"tOpFuJ0ALvu2dcGBbvmAOnSKaD/t38wCUGY+Ioxp8pA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:52:28 GMT"
+          "Value": "Tue, 26 Nov 2024 13:44:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21661,7 +21682,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5P10WsjITUdG89RAv+PO6+KygG2ILQgsVpAJFvWmH+c="
+          "Value": "sha256-tOpFuJ0ALvu2dcGBbvmAOnSKaD/t38wCUGY+Ioxp8pA="
         }
       ]
     },
@@ -46373,7 +46394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40960"
+          "Value": "40609"
         },
         {
           "Name": "Content-Type",
@@ -46381,11 +46402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6ntzUlS7D9ieNZUo4lm4T+KGs87MSYJ/x4adVU8NZfI=\""
+          "Value": "\"dMUUb6FhQSQU9/pSZkPCGagfHOw9sOJtcmm3hSCAopU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 21:02:49 GMT"
+          "Value": "Tue, 26 Nov 2024 13:29:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46395,12 +46416,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6ntzUlS7D9ieNZUo4lm4T+KGs87MSYJ/x4adVU8NZfI="
+          "Value": "sha256-dMUUb6FhQSQU9/pSZkPCGagfHOw9sOJtcmm3hSCAopU="
         }
       ]
     },
     {
-      "Route": "css/app.min.eau3800nhx.css",
+      "Route": "css/app.min.sem82c792c.css",
       "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\css\\app.min.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -46410,7 +46431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40960"
+          "Value": "40609"
         },
         {
           "Name": "Content-Type",
@@ -46418,11 +46439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6ntzUlS7D9ieNZUo4lm4T+KGs87MSYJ/x4adVU8NZfI=\""
+          "Value": "\"dMUUb6FhQSQU9/pSZkPCGagfHOw9sOJtcmm3hSCAopU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 21:02:49 GMT"
+          "Value": "Tue, 26 Nov 2024 13:29:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46432,7 +46453,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eau3800nhx"
+          "Value": "sem82c792c"
         },
         {
           "Name": "label",
@@ -46440,7 +46461,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6ntzUlS7D9ieNZUo4lm4T+KGs87MSYJ/x4adVU8NZfI="
+          "Value": "sha256-dMUUb6FhQSQU9/pSZkPCGagfHOw9sOJtcmm3hSCAopU="
         }
       ]
     },
@@ -46978,6 +46999,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Ra4BrGpVyDN/Ek3C+pnW4RBmtSQx7uLwlhljj5uHrKM="
+        }
+      ]
+    },
+    {
+      "Route": "images/hamburger.c0xgousqsc.svg",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\hamburger.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HJumIMEkHV9hob8777kYkhLfpOyBzUSHJh3bjYiFjpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 13:15:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c0xgousqsc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hamburger.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HJumIMEkHV9hob8777kYkhLfpOyBzUSHJh3bjYiFjpk="
+        }
+      ]
+    },
+    {
+      "Route": "images/hamburger.svg",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\hamburger.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HJumIMEkHV9hob8777kYkhLfpOyBzUSHJh3bjYiFjpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 13:15:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HJumIMEkHV9hob8777kYkhLfpOyBzUSHJh3bjYiFjpk="
         }
       ]
     },
@@ -47720,51 +47823,6 @@
       ]
     },
     {
-      "Route": "js/job.evrb328sgr.js",
-      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\js\\job.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3078"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JvOB95gPZW7OMq12/aZq0LLjbNZr69W2j8s4rI6ATlU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 12:51:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "evrb328sgr"
-        },
-        {
-          "Name": "label",
-          "Value": "js/job.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JvOB95gPZW7OMq12/aZq0LLjbNZr69W2j8s4rI6ATlU="
-        }
-      ]
-    },
-    {
       "Route": "js/job.js",
       "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\js\\job.js",
       "Selectors": [],
@@ -47775,7 +47833,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3078"
+          "Value": "3255"
         },
         {
           "Name": "Content-Type",
@@ -47783,11 +47841,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JvOB95gPZW7OMq12/aZq0LLjbNZr69W2j8s4rI6ATlU=\""
+          "Value": "\"Vuw2sI2Ozi2jKTLttGgLIiVTLIn54gAMwyHRdrXzv1M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 12:51:35 GMT"
+          "Value": "Sun, 24 Nov 2024 20:51:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -47797,7 +47855,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JvOB95gPZW7OMq12/aZq0LLjbNZr69W2j8s4rI6ATlU="
+          "Value": "sha256-Vuw2sI2Ozi2jKTLttGgLIiVTLIn54gAMwyHRdrXzv1M="
+        }
+      ]
+    },
+    {
+      "Route": "js/job.uj2bq29sbg.js",
+      "AssetFile": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\js\\job.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vuw2sI2Ozi2jKTLttGgLIiVTLIn54gAMwyHRdrXzv1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 20:51:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uj2bq29sbg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/job.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vuw2sI2Ozi2jKTLttGgLIiVTLIn54gAMwyHRdrXzv1M="
         }
       ]
     },
@@ -48058,7 +48161,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39124"
+          "Value": "39246"
         },
         {
           "Name": "Content-Type",
@@ -48066,11 +48169,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KtlAIRqCP3HEKF07S+fpPtOHZmwWylyJMiq1PsffDC4=\""
+          "Value": "\"b5Eb5nXcgLtfEho7QDol1Sx2NDWvwGmwenrcXvonbfQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 18:14:42 GMT"
+          "Value": "Tue, 26 Nov 2024 13:50:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -48080,7 +48183,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KtlAIRqCP3HEKF07S+fpPtOHZmwWylyJMiq1PsffDC4="
+          "Value": "sha256-b5Eb5nXcgLtfEho7QDol1Sx2NDWvwGmwenrcXvonbfQ="
         }
       ]
     },
@@ -48103,7 +48206,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ixd0+ZjmuDZd/vq5C5FCIW8xCXc8UW17XaF1ohezkUU=\""
+          "Value": "\"f1OxvcRUzUuAcNoFnV3+5npF8N84ZmnyKuZMVUBrjOk=\""
         },
         {
           "Name": "Last-Modified",
@@ -48117,7 +48220,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ixd0+ZjmuDZd/vq5C5FCIW8xCXc8UW17XaF1ohezkUU="
+          "Value": "sha256-f1OxvcRUzUuAcNoFnV3+5npF8N84ZmnyKuZMVUBrjOk="
         }
       ]
     }

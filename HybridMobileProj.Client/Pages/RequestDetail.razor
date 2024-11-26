@@ -14,6 +14,8 @@
 @inject ISurveyRepository SurveyRepository
 @inject ISurveyorRepository SurveyorRepository
 
+<SetPageName CurrURL="@($"/helpdesk/request/{Guid}")" />
+
 <div class="">
   <RequestHeader request="request" />
   <ContactContainer request="request" />

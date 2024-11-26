@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\cross.svg"
     },
     {
+      "Id": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\hamburger.svg",
+      "PackagePath": "staticwebassets\\images\\hamburger.svg"
+    },
+    {
       "Id": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\images\\jobs.svg",
       "PackagePath": "staticwebassets\\images\\jobs.svg"
     },

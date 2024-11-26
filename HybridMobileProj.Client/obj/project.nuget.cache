@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oNFrE1KF81c=",
+  "dgSpecHash": "IBm3gZvknrw=",
   "success": true,
   "projectFilePath": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
   "expectedPackageFiles": [
@@ -97,36 +97,6 @@
     "C:\\Users\\BilalUddin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.11.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Private.Uri' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5f2m-466j-3848",
-      "libraryId": "System.Private.Uri",
-      "targetGraphs": [
-        "net8.0/browser-wasm"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Private.Uri' 4.3.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-x5qj-9vmx-7g6g",
-      "libraryId": "System.Private.Uri",
-      "targetGraphs": [
-        "net8.0/browser-wasm"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Private.Uri' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-xhfc-gr8f-ffwc",
-      "libraryId": "System.Private.Uri",
-      "targetGraphs": [
-        "net8.0/browser-wasm"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",
