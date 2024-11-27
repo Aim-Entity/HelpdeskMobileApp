@@ -1,0 +1,97 @@
+﻿@using Application.Job
+@using Application.PluginInterfaces.Job
+@using Application.PluginInterfaces.User
+@using Application.User
+@using Domain.Entities.Job
+@using Domain.Entities.User
+@using HybridMobileProj.Client.Components.RequestDetail
+@using HybridMobileProj.Client.Stores.Users
+
+@inject IQuoteRepository QuoteRepository
+@inject IContractorRepository ContractorRepository
+
+<div class="container-border-notop px-3 py-4 flex flex-col gap-4">
+  <div class="flex flex-col gap-2">
+    <h3 class="text-12px text-primary-color font-semibold">Address Info</h3>
+    <ContactLine Text="@quote.Property.Address1" />
+    <ContactLine Text="@quote.Property.Address2" />
+    <ContactLine Text="@quote.Property.Address3" />
+    <ContactLine Text="@quote.Property.Postcode" />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <h3 class="text-12px text-primary-color font-semibold">Contact Info</h3>
+    <ContactLine Text="@quote.PropertyManager.FullName" />
+    <ContactLine Text="@quote.PropertyManager.Contact.Telephone" />
+    <ContactLine Text="@quote.PropertyManager.Contact.Email" />
+  </div>
+
+  <div class="flex flex-col gap-2 ">
+    <h3 class="text-12px text-primary-color font-semibold">Contractor Info</h3>
+
+    <input type="number"
+      class="generic-input-field w-full @(CurrentUser.User != Domain.Enums.UserEnum.Contractor ? "hidden" : "block") @(quote.JobStatus == Domain.Enums.JobStatusEnum.SurveyorManagerSection ? "hidden" : "block")"
+      placeholder="Enter Bid" @bind="newBid.CurrentBid">
+    <button
+      class="w-full h-10 bg-green-700 text-white @(CurrentUser.User != Domain.Enums.UserEnum.Contractor ? "hidden" : "block") @(quote.JobStatus == Domain.Enums.JobStatusEnum.SurveyorManagerSection ? "hidden" : "block")"
+      @onclick="() => AddBid()">Submit Bid</button>
+
+    @if (quote.JobStatus == Domain.Enums.JobStatusEnum.ContractorManagerSection)
+    {
+      @foreach (var bid in quote.BidSelection)
+      {
+        <QuoteContractorBidPanel Bid="@bid" Contractor="@bid.Contractor" quote="quote" OnDataUpdated="@UpdateBid"
+          Accepted=false />
+      }
+    }
+    else if (quote.JobStatus == Domain.Enums.JobStatusEnum.SurveyorManagerSection)
+    {
+      <QuoteContractorBidPanel Bid="@quote.Bid" Contractor="@quote.Bid.Contractor" quote="quote"
+        OnDataUpdated="@UpdateBid" Accepted=true />
+    }
+
+  </div>
+
+</div>
+
+@code {
+  [Parameter]
+  public Quote quote { get; set; }
+  public QuoteService _quoteService;
+  public ContractorService _contractorService;
+  CurrentUserSingleton CurrentUser = CurrentUserSingleton.Instance();
+
+
+  public IEnumerable<Contractor> contractors = Enumerable.Empty<Contractor>();
+  public Bid newBid = new Bid { };
+
+  protected override async Task OnInitializedAsync()
+  {
+    _quoteService = new QuoteService(QuoteRepository);
+
+    _contractorService = new ContractorService(ContractorRepository);
+    contractors = await _contractorService.GetAllContractorsAsync();
+  }
+
+  [Inject] IJSRuntime JSRuntime { get; set; }
+  protected async Task CreateAlert(string message)
+  {
+    await JSRuntime.InvokeVoidAsync("alerts.toggleAlert", message);
+  }
+
+  public async Task AddBid()
+  {
+    newBid.Contractor = contractors.FirstOrDefault(c => c.FullName == "Bilal Contractor");
+    quote.BidSelection.Add(newBid);
+    await _quoteService.UpdateQuoteAsync(quote);
+
+    newBid = new Bid { };
+    StateHasChanged();
+
+  }
+
+  public async Task UpdateBid()
+  {
+    StateHasChanged();
+  }
+}

@@ -5901,11 +5901,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
+      "projectUniqueName": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
       "projectName": "HybridMobileProj.Client",
-      "projectPath": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
+      "projectPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
       "packagesPath": "C:\\Users\\BilalUddin\\.nuget\\packages\\",
-      "outputPath": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\",
+      "outputPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5926,8 +5926,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\Application.csproj": {
-              "projectPath": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\Application.csproj"
+            "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\Application.csproj": {
+              "projectPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\Application.csproj"
             },
             "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\Domain.csproj": {
               "projectPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Domain\\Domain.csproj"
@@ -5935,8 +5935,8 @@
             "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Infrastructure\\Infrastructure.csproj"
             },
-            "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Shared\\Shared.csproj": {
-              "projectPath": "c:\\projects\\HybridMobileProj\\HybridMobileProj\\Shared\\Shared.csproj"
+            "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Shared\\Shared.csproj"
             }
           }
         }
@@ -6023,6 +6023,36 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Private.Uri' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5f2m-466j-3848",
+      "libraryId": "System.Private.Uri",
+      "targetGraphs": [
+        "net8.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Private.Uri' 4.3.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-x5qj-9vmx-7g6g",
+      "libraryId": "System.Private.Uri",
+      "targetGraphs": [
+        "net8.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Private.Uri' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-xhfc-gr8f-ffwc",
+      "libraryId": "System.Private.Uri",
+      "targetGraphs": [
+        "net8.0/browser-wasm"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
