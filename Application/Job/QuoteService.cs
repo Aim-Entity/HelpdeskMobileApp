@@ -4,7 +4,7 @@ using Domain.Entities.Job;
 
 namespace Application.Job;
 
-public class QuoteService
+public class QuoteService : IQuoteService
 {
   private readonly IQuoteRepository _QuoteRepository;
 

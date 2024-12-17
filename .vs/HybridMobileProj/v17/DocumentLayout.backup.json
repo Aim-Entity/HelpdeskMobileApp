@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.client\\stores\\users\\currentusersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|solutionrelative:hybridmobileproj.client\\stores\\users\\currentusersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.client\\pages\\properties.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|solutionrelative:hybridmobileproj.client\\pages\\properties.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080A686D-A34C-4EE3-B6AA-011A921D1A0B}|HybridMobileProj.Server\\HybridMobileProj.Server.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080A686D-A34C-4EE3-B6AA-011A921D1A0B}|HybridMobileProj.Server\\HybridMobileProj.Server.csproj|solutionrelative:hybridmobileproj.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|solutionrelative:hybridmobileproj.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{080A686D-A34C-4EE3-B6AA-011A921D1A0B}|HybridMobileProj.Server\\HybridMobileProj.Server.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.server\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080A686D-A34C-4EE3-B6AA-011A921D1A0B}|HybridMobileProj.Server\\HybridMobileProj.Server.csproj|solutionrelative:hybridmobileproj.server\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{080A686D-A34C-4EE3-B6AA-011A921D1A0B}|HybridMobileProj.Server\\HybridMobileProj.Server.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.server\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080A686D-A34C-4EE3-B6AA-011A921D1A0B}|HybridMobileProj.Server\\HybridMobileProj.Server.csproj|solutionrelative:hybridmobileproj.server\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.client\\hybridmobileproj.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|solutionrelative:hybridmobileproj.client\\hybridmobileproj.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E446E1B4-49A7-4958-A012-82B5512C8AF7}|Application\\Application.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\application\\plugininterfaces\\property\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E446E1B4-49A7-4958-A012-82B5512C8AF7}|Application\\Application.csproj|solutionrelative:application\\plugininterfaces\\property\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|c:\\projects\\hybridmobileproj\\hybridmobileproj\\hybridmobileproj.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FD01BB9-5B6E-4C3E-BAD1-70DF23887B95}|HybridMobileProj.Client\\HybridMobileProj.Client.csproj|solutionrelative:hybridmobileproj.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,93 +35,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CurrentUserSingleton.cs",
-              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
-              "RelativeDocumentMoniker": "HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
-              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
-              "RelativeToolTip": "HybridMobileProj.Client\\Stores\\Users\\CurrentUserSingleton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:46:40.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PropertyController.cs",
-              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Controllers\\PropertyController.cs",
-              "RelativeDocumentMoniker": "HybridMobileProj.Server\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Controllers\\PropertyController.cs",
-              "RelativeToolTip": "HybridMobileProj.Server\\Controllers\\PropertyController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:40:17.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Program.cs",
-              "RelativeDocumentMoniker": "HybridMobileProj.Client\\Program.cs",
-              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Program.cs",
-              "RelativeToolTip": "HybridMobileProj.Client\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:37:41.517Z",
+              "Title": "Properties.razor",
+              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Pages\\Properties.razor",
+              "RelativeDocumentMoniker": "HybridMobileProj.Client\\Pages\\Properties.razor",
+              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\Pages\\Properties.razor",
+              "RelativeToolTip": "HybridMobileProj.Client\\Pages\\Properties.razor",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T19:20:07.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Program.cs",
-              "RelativeDocumentMoniker": "HybridMobileProj.Server\\Program.cs",
-              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Program.cs",
-              "RelativeToolTip": "HybridMobileProj.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:37:33.695Z",
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "HybridMobileProj.Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\wwwroot\\index.html",
+              "RelativeToolTip": "HybridMobileProj.Client\\wwwroot\\index.html",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-11T13:29:27.233Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiBaseController.cs",
-              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Controllers\\ApiBaseController.cs",
-              "RelativeDocumentMoniker": "HybridMobileProj.Server\\Controllers\\ApiBaseController.cs",
-              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\Controllers\\ApiBaseController.cs",
-              "RelativeToolTip": "HybridMobileProj.Server\\Controllers\\ApiBaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T20:46:01.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HybridMobileProj.Client.csproj",
-              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
-              "RelativeDocumentMoniker": "HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
-              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
-              "RelativeToolTip": "HybridMobileProj.Client\\HybridMobileProj.Client.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-15T16:48:10.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPropertyRepository.cs",
-              "DocumentMoniker": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\PluginInterfaces\\Property\\IPropertyRepository.cs",
-              "RelativeDocumentMoniker": "Application\\PluginInterfaces\\Property\\IPropertyRepository.cs",
-              "ToolTip": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\Application\\PluginInterfaces\\Property\\IPropertyRepository.cs",
-              "RelativeToolTip": "Application\\PluginInterfaces\\Property\\IPropertyRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:32:33.637Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

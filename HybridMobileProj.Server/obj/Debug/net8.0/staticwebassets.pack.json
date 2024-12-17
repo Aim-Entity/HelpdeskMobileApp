@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HybridMobileProj.Server.bundle.scp.css",
-      "PackagePath": "staticwebassets\\HybridMobileProj.Server.bundle.scp.css"
+      "PackagePath": "staticwebassets\\HybridMobileProj.Server.y174kxpfxv.bundle.scp.css"
     },
     {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\wwwroot\\app.css",
@@ -19,6 +19,10 @@
     {
       "Id": "C:\\projects\\HybridMobileProj\\HybridMobileProj\\HybridMobileProj.Server\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HybridMobileProj.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HybridMobileProj.Server.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -18,10 +18,12 @@ public class CurrentUserSingleton : Users
 
   }
 
+  public int Id { get; private set; }
+
   private static CurrentUserSingleton _instance;
   private static readonly object _lock = new object();
 
-  public static CurrentUserSingleton Instance()
+  public static CurrentUserSingleton Instance(int id = 1)
   {
     if (_instance == null)
     {
@@ -30,6 +32,7 @@ public class CurrentUserSingleton : Users
         if (_instance == null)
         {
           _instance = new CurrentUserSingleton();
+          _instance.Id = id;
         }
       }
     }
@@ -37,7 +40,21 @@ public class CurrentUserSingleton : Users
     return _instance;
   }
 
-  public UserEnum User { get; set; }
+  public UserEnum User { get; set; } = UserEnum.PropertyManager;
+
+  public string UserEnumText
+  {
+    get
+    {
+      return User switch
+      {
+        UserEnum.Surveyor => "Surveyor",
+        UserEnum.PropertyManager => "Property Manager",
+        UserEnum.Contractor => "Contractor",
+        _ => ""
+      };
+    }
+  }
 
   public void UpdateUserType(UserEnum userEnum)
   {

@@ -139,3 +139,8 @@ C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\obj\Debug\
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\obj\Debug\net8.0\HybridMobileProj.Server.pdb
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\obj\Debug\net8.0\HybridMobileProj.Server.genruntimeconfig.cache
 C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\obj\Debug\net8.0\ref\HybridMobileProj.Server.dll
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\bin\Debug\net8.0\HybridMobileProj.Client.staticwebassets.endpoints.json
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\bin\Debug\net8.0\HybridMobileProj.Server.staticwebassets.endpoints.json
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\obj\Debug\net8.0\staticwebassets\msbuild.HybridMobileProj.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\projects\HybridMobileProj\HybridMobileProj\HybridMobileProj.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

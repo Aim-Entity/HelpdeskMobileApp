@@ -24,12 +24,11 @@
             @onclick="() => showUserInfo = !showUserInfo">
         <div class="">
             <h3 class="text-12px text-primary-color">Bilal Uddin</h3>
-            <p class="text-10px text-secondary-color">Property Manager</p>
+            <p class="text-10px text-secondary-color">@CurrentUser.UserEnumText</p>
         </div>
 
         <div
             class="border-x-2 border-y-2 z-[1000] absolute right-5 top-14 max-h-96 w-80 overflow-auto rounded border border-[#E9EBEC] bg-white px-4 py-4 @(showUserInfo ? "block" : "hidden")">
-            <h3 class="text-base font-semibold capitalize text-[#878A99]">Test</h3>
             <p class="mt-1 cursor-pointer text-sm text-[#878A99] flex justify-between gap-4">
                 <b @onclick="() => CurrentUser.UpdateUserType(UserEnum.PropertyManager)">PM</b>
                 <b @onclick="() => CurrentUser.UpdateUserType(UserEnum.Contractor)">Contractor</b>
@@ -54,11 +53,6 @@
     <div class="@(CurrentUser.User == UserEnum.PropertyManager ? "block" : "hidden")">
         <NavLink class="nav-link" href="properties" @onclick=ToggleNav>
             Properties
-        </NavLink>
-    </div>
-    <div class="@(CurrentUser.User == UserEnum.PropertyManager ? "block" : "hidden")">
-        <NavLink class="nav-link" href="weather" @onclick=ToggleNav>
-            Compliances
         </NavLink>
     </div>
 </nav>

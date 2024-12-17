@@ -5,6 +5,7 @@ namespace HybridMobileProj.Client.Stores.Undo;
 
 public class UndoStack
 {
+  public int Id { get; private set; }
   public List<string> Stack { get; set; } = new List<string> { };
   public int Pointer { get; set; } = -1;
 
@@ -16,7 +17,7 @@ public class UndoStack
   private static UndoStack _instance;
   private static readonly object _lock = new object();
 
-  public static UndoStack Instance()
+  public static UndoStack Instance(int id = 1)
   {
     if (_instance == null)
     {
@@ -25,6 +26,7 @@ public class UndoStack
         if (_instance == null)
         {
           _instance = new UndoStack();
+          _instance.Id = id;
         }
       }
     }

@@ -1,19 +1,14 @@
 
 window.propertiesScripts = {
-  createGrid: function (properties) {
+    createGrid: function (properties) {
+        console.log(properties);
       // Grid Options: Contains all of the Data Grid configurations
       let propertiesColumnDef = [
           {
-              field: "id",
+              field: "guid",
               headerName: "ID",
               filter: 'agTextColumnFilter',
-              valueGetter: params => { return `#${params.data.id}` }
-          },
-          {
-              field: "manager",
-              filter: 'agTextColumnFilter',
-              headerName: "Managed By",
-              valueGetter: params => { return params.data.manager == null || params.data.manager == "" ? "No Manager" : params.data.manager }
+              valueGetter: params => { return `#${params.data.guid.slice(0, 4)}` }
           },
           {
               field: "propertyName",
